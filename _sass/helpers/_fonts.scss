@@ -4,6 +4,11 @@
   src: URL('../font/WixMadeforText-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Wix Madefor Display';
+  src: URL('../font/WixMadeforDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
 html {
 	font-family: 'Wix Madefor Text';
 	line-height: 1.5;
@@ -16,7 +21,7 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Wix Madefor Text';
+	font-family: 'Wix Madefor Display';
 }
 
 h1 {
