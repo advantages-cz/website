@@ -1,0 +1,48 @@
+.primary-button {
+	button {
+		border-radius: 24px;
+		border: 0rem;
+		font-style: normal;
+		font-weight: 600;
+		letter-spacing: 0.0125em;
+		color: colors.brand(white, 0);
+		white-space: nowrap;
+		
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.large {
+		font-size: sizes.$button-font-size-l;
+		padding: 1.125rem 2rem;
+
+		@media (min-width: bps.$L) {
+			padding: 1rem 6rem;
+		}
+	}
+
+	.style1 {
+		background: colors.brand(gradients, primary);
+	}
+	
+	.style2{
+		border: 1px solid; 
+		background:colors.brand(white, 0) ;
+		color: colors.brand(gray, 900);
+		border-color: #576CCE;
+	}
+
+	.style3{
+		background: colors.brand(gradients, secondary);
+	}
+
+	.style4{
+		background: colors.brand(red, 0);
+	}
+
+
+	.dark {
+		background: colors.brand(buttons, dark);
+	}
+}

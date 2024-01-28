@@ -1,0 +1,621 @@
+main:
+  button-start: Chci začít
+  header:
+    menu: Nabidka
+    follow: Sledovat
+  footer:
+    claim: Jsme česká společnost založená v roce 2003. 
+      Naším posláním je efektivně pomáhat firmám a institucím k digitalizaci.
+    copyright: ORIGAM je ochranná známka společnosti 
+      Advantage Solutions, s. r. o., Jihovýchodní II. 887, 141 00 Praha 4,
+      Czech Republic. Copyright © 2014&ndash;2023.
+    terms: Podmínky
+    privacy: Ochrana soukromí a GDPR
+
+page-whatwedo:
+  title: CO DĚLÁME
+
+page-howwework:
+  title: JAK PRACUJEME
+
+page-aboutus:
+  title: O NÁS
+
+page-workwithus:
+  title: PRACUJTE S NÁMI
+
+page-contact:
+  title: KONTAKT
+
+
+page-home:
+  title: Home
+  description: ORIGAM je open source software pro vývoj interních systémů i aplikací na míru.
+   Pro všechny, kterým nestačí běžné aplikace.
+  intro:
+    title: Rozvíjíme Vaši digitální budoucnost
+    subtitle: Vytváříme řešení pro týmy a podnikání
+    button-start: Chci začít
+    button-learn: Zjistit více
+  what-we-do:
+    title1: Co děláme
+    text1: Startupy i větší organizace potřebují k rozvoji zázemí v podobě spolehlivého interního systému, podpůrných aplikací a procesů. A my jim dokážeme pomoct. Nejdříve dáme hlavy dohromady a řekneme nahlas cíle, kterých chce klient dosáhnout. Poté navrhujeme cestu.
+    title2: Vývoj specializovaného softwaru
+    text2: Softwarový prefabrikát nevyhovuje každému. Zajišťujeme kompletní vývoj softwaru na míru od nápadu, přes nasazení až po dlouhodobou podporu. Vyvíjíme v nejrozšířenějších nástrojích i pomocí vlastní open source platformy.
+    title3: Podpora programátorským týmům
+    text3: Potřebujete další programátorké talenty do týmu nebo poradit s architekturou? Doplníme Váš tým nejen o nového člena, ale také o cenné znalosti a zkušenosti.
+    title4: Poradenství s řízením procesů
+    text4: Máme zkušenosti s řízením procesů v různých odvětvích. V rámci spolupráce v nás máte i poradenskou oporu, kdy Vám dokážeme předat osvědčené postupy.
+    title5: Sjednocení komunikace v týmu a komunitách
+    text5: Nehledejte pořád dokumenty, návody, dohody mezi kolegy nebo zákazníky. Připravíme přímo pro Vás komunikační nástroj a naučíme Vás s ním efektivně pracovat. Discourse.
+  lets-start:
+    text: Nejsme jenom programátoři. Pomáháme klientům růst, inovovat a transformovat.
+    button: Začněme spolu
+  help-clients:
+    title: S čím pomůžeme
+    text: Umožňujeme klientům efektivní práci z odkudkoliv – z domova, z terénu, z lodi – pomocí jednoduchých informačních systémů a komunikačních nástrojů.
+    card-title1: Splňte si sny
+    card-text1: Máme zkušenosti s řízením procesů v různých odvětvích. V rámci spolupráce v nás máte i poradenskou oporu, kdy Vám dokážeme předat osvědčené postupy.
+    card-title2: Pryč s rutinou
+    card-text2: Zvládnout víc práce s menší námahou. Automatizujte opakující se činnosti a ušetřený čas využijte efektivněji. Třeba na kreativní úkoly.
+    card-title3: Víc hlav, víc zkušeností
+    card-text3: Potřebujete pro svůj projekt spolupracovat s dalšími odborníky a specialisty s doménovými znalostmi? Nehledejte je složitě, my Vám takové lidi do týmu půjčíme.
+    card-title4: Rozjeďte svůj startup
+    card-text4: Váš inovativní koncept nebo podnikání potřebuje pořádně nastartovat. Pomůžeme Vám nejen s technologií, ale i s obchodními a podnikatelskými aspekty, abyste své podnikání rozjeli rychle a zbytečně neutráceli.
+    card-title5: Ty správné informace po ruce
+    card-text5: Komunikace v týmu i se zákazníky je základ. Mějte k dispozici všechny informace, dohody a dokumenty kdykoliv a kdekoliv. Lze to jednoduše a přehledně díky modernímu komunikačnímu nástroji.
+    button: Mám zájem o spolupráci
+  about-us:
+    title: Toto jsme my
+    text: Naším úkolem je pomoct Vám se zapeklitým problémem. Máme na to ty nejlepší vlastnosti.
+    card1: Efektivní
+    card2: ---
+    card3: Nezávislí
+    card4: Transparentní
+    card5: Inovativní
+    card6: Jednotní
+    card7: Proaktivní
+    member-capkova: Backend senior vývojářka, která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce. Jaká je? Pečlivá, důsledná, zodpovědná, naše 1 pro modelování.
+    member-hrehorovsky: Senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví. Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
+    member-prajz: Backend vývojář, který také modeluje, navrhuje a spravuje systémy. Má zkušenosti s projekty pro neziskovku, sportovou organizaci nebo v tiskařském oboru. Jaká je? DevOps je pro něj základ, pracuje systematicky a rychle.
+    member-susen: Full stack senior vývojář, náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu. Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
+    member-urbanek: Senior backend architekt a databázový architekt. Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce. Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
+    member-vavrda: Zakladatel AS a tvůrce ORIGAM, manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání. Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
+  join-us:
+    title: Chcete se k nám přidat?
+    text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
+    button: Chci Vás
+  about-us-text:
+    text1: Společnost Advantage Solutions, s.r.o. vznikla v roce 2003 v ČR s cílem vyvíjet všeobecná IT řešení pro malé a střední firmy. Klienti často poptávali specifická řešení a tak jsme vyvinuli vlastní software ORIGAM. Má výhody zakázkového softwaru, navíc je flexibilní, spolehlivý, s rychlou technickou podporu a od roku 2017 jako open source.
+    text2: Systémy od nás pomáhají klientům s automatizací, podporou procesů, v rozhodování na základě přesných dat a přehledných uživatelských rozhraní.
+    text3: Naším posláním je efektivně pomáhat firmám a organizacím k digitalizaci.
+  how-we-work:
+    title: Jak pracujeme
+    text: Ať už potřebujete vyvinout malou aplikaci, robustní interní systém nebo sami nestačíte na svůj projekt, nabízíme naše zkušenosti a čas.
+    button: Chci Vás
+    step1-title: 1. První kafe
+    step1-text: Řeknete nám, co a jak děláte a proč chcete změnu. My se také představíme.
+    step2-title: 2. Přemýšlíme spolu
+    step2-text: Sedneme si spolu a zanalyzujeme Vaše potřeby a naše možnosti.
+    step3-title: 3. Navrhujeme řešení
+    step3-text: Připravíme postup spolupráce nebo prototyp nového systému, abyste si zkusili, jak bude fungovat a vypadat.
+    step4-title: 4. Pracujeme agilně
+    step4-text: Po upřesnění podrobností začínáme vyvíjet, implementovat nebo konzultovat. Jste v kontaktu s vývojáři a máte aktuální přehled o dění na projektu. Kryjeme Vám záda
+    step5-title: 5. Kryjeme Vám záda
+    step5-text: Implementací to nemusí končit. Rádi udržujeme dlouhodobé vztahy s klienty.
+    tech-title: V čem jsme dobří
+    tech-text: Technologie, nástroje a programovací jazyky, které máme v malíčku
+    tech-sub-title1: Technologie
+    tech-sub-title2: Integrace
+  our-work:
+    title: Naše práce
+    text: Zkušenosti sbíráme v různých odvětvích, žádného se nebojíme. Pracovali jsme pro klienty v oblasti realit, potravin, aerolinií, bank, neziskovek, pro zahraniční státní správy nebo sportovní organizace. U nás i v zahraničí.
+    category1: Sales & eCommerce
+    category2: Food industry
+    category3: Insurance companies
+    category4: Real estate
+    category5: Services
+    category6: Telco
+    category7: Tourism
+    category8: Other
+  contact:
+    title: Kontakt
+    text: Řekněte nám, s čím potřebujete pomoct nebo poradit. Spolu najdeme řešení.
+  copyright:
+    address: Advantage Solutions, s. r. o., Jihovýchodní II. 887, 141 00 Praha 4, Czech Republic.
+    date: Copyright © 2003–2023.
+
+
+page-about:
+  title: O nás
+  description: Naším posláním je efektivně pomáhat firmám a institucím k digitalizaci.
+    Chceme, aby se ORIGAM stal řešením č. 1 pro všechny softwarové vývojáře.
+  intro:
+    title: Historie
+    subtitle: Jak to vše začalo
+  mission:
+    title: Mise
+    subtitle: Chceme, aby se ORIGAM stal řešením č. 1 pro všechny softwarové
+      vývojáře, kteří vyžadují maximum flexibility a zároveň spolehlivosti s
+      rychlou technickou podporou.
+  story:
+    title: ORIGAM
+    subtitle: Příběh značky
+    text: "<p>Představte si origami: začnete nápadem, finální představou, kterou
+      máte v hlavě. Ohnete papír, a poté znovu. Trénujete, začnete něčím
+      snadným a držíte se instrukcí. Prototypujete. Naberete zkušenosti a
+      začnete zkoušet více a více sofistikované modely. Nakonec to celé
+      zvládnete od myšlenky přes zakázkový vývoj až do funkčního řešení.</p>
+      <p>Přesně takhle ORIGAM funguje.</p>"
+    quote: „I cesta dlouhá tisíc mil začíná jediným krokem.“
+    quote-author: Lao Tse
+
+origam-timeline:
+  -
+    date: 2003
+    title: Založili jsme společnost
+    explanation: Nejdříve jsme se zaměřili na všeobecná IT řešení pro malé a
+      střední podniky. Ale brzy jsme si uvědomili, že existuje poptávka po
+      řešení, které by mělo všechny výhody zakázkového softwaru, ale bez jeho
+      nevýhod. A tak jsme začali vyvíjet software. Zrodil se ORIGAM.
+  -
+    date: 2013
+    title: Zacílení na partnery
+    explanation: Rozhodli jsme se změnit strategii a zaměřit se zcela na 
+      implementátory softwaru a vývojáře. Místo abychom byli v přímém kontaktu
+      se zákazníky, rozhodli jsme se aby toto zastali naši partneři. Věříme,
+      že znají své zákazníky lépe, než bychom kdy mohli my, a tak se naší
+      starostí stalo dodávat partnerům správné nástroje, aby mohli tuto práci
+      provádět co nejlépe.
+  -
+    date: 2017
+    title: Opensource
+    explanation: Rozhodli jsme se uvolnit ORIGAM jako svobodný 
+      software – opensource.
+
+
+page-contact:
+  title: Kontakt
+  description: Zaujal Vás ORIGAM? Chcete si vyzkoušet prototyp nebo se stát partnerem?
+    Napište nám, co potřebujete. Vše rádi zodpovíme.
+#   main:
+#     title: Představíme Vám ORIGAM osobně nebo online
+#     subtitle: Zaujaly Vás funkce? Chcete si vyzkoušet prototyp? Nebo se Vám
+#       ORIGAM líbí tak, že chcete být partnerem? Napište nám, co potřebujete.
+#       Vše rádi zodpovíme.
+#   form:
+#     interest-type: Čím Vás ORIGAM zaujal?
+#     interest1: Jsme organizace a potřebujeme inovovat náš interní systém
+#     interest2: Chceme se stát ORIGAM partnerem
+#     name: Vaše jméno nebo název organizace
+#     e-mail: Kontaktní e-mail
+#     phone: Telefon
+#     help: V čem Vám můžeme pomoci?
+#     button-send: Odeslat
+
+support:
+  title: Podpora
+  subtitle: Kdo mi pomůže v&nbsp;nesnázích?
+  intro: Výhodou open source softwaru je široká základna lidí a organizací,
+      která pomáhá s rozvojem systému. Nemusíte se tak omezovat na jednoho
+      partnera.
+
+support-types:
+  -
+    title: Komunitní fórum
+    image: /img/icons/forum.svg
+    image-alt: forum
+    text: Fórum je dostupné pro každého. Tady najdete první stupeň 
+      podpory. Na relevantní dotazy a návrhy na zlepšení odpovídají zkušení 
+      členové komunity.
+    button-text: Otevřít fórum
+    button-link: https://community.origam.com
+    translate-link: false
+  -
+    title: Partneři
+    image: /img/icons/carbon_partnership.svg
+    image-alt: partnership
+    text: Partneři jsou certifikovaní specialisté na ORIGAM. S nimi řešíte
+      prototyp, vývoj na míru i podporu. Platíte za čas, který se Vám věnuje.
+    button-text: Seznam partnerů
+    button-link: partners
+    translate-link: true
+  -
+    title: Core Team
+    image: /img/icons/carbon_star-filled.svg
+    image-alt: star
+    text: Pořád je tady i ORIGAM guru - zakladatelský tým. Bez pomoci rozhodně
+      nezůstanete.
+    button-text: Advantage Solutions
+    button-link: http://www.advantages.cz
+    translate-link: false
+
+page-product:
+  title: Produkt
+  description: Poskládejte si ORIGAM software, který vyhovuje Vaší organizaci – databázové,
+   logistické a rozpočtové aplikace, analýza i vyhodnocování dat.
+   Software na míru rychle a za cenu hotového řešení.
+  start:
+    title: Začít s ORIGAM je prosté
+    subtitle: Usnadněte si práci a soustřeďte se na své podnikání. 
+      Poskládejte si s ORIGAM software, který vyhovuje Vaší organizaci. 
+      Rychle a za cenu hotového řešení.
+  aspects:
+    title: Rozšiřitelnost
+    subtitle: Funkce ORIGAM
+    intro: Vyberte si z více jak 30 komponent a sestavte si aplikaci přesně na
+      míru vašim potřebám. To vše bez jediné řádky kódu.
+  industries:
+    title: Odvětví
+    subtitle: Pro koho se ORIGAM&nbsp;hodí?
+    intro: Digitální transformace. Inovativní firmy a oddělení. Specifické
+      nároky na procesy. ORIGAM je zejména pro ty, které neuspokojí běžné
+      aplikace dostupné na trhu nebo by museli software zdlouhavě vyvíjet od
+      nuly. Používají ho jak malí podnikatelé, tak i velké či nadnárodní
+      společnosti a neziskové organizace, napříč odvětvími.
+  process:
+    title: Náš proces
+    subtitle: Jak začít<br>s ORIGAM?
+    intro: Už jste rozhodnutí pro změnu nebo se zatím jen poohlížíte? Nejvíc
+      se stejně dozvíte napřímo od nás - telefonicky, osobně nebo online.
+    button-text: Domluvit schůzku
+  testimonials:
+    title: Jak ORIGAM používají naši zákazníci
+
+start-reasons:
+  -
+    title: Jednoduché ovládání
+    image: /img/icons/carbon_rocket.svg
+    image-alt: rocket
+    text: Uživatelské rozhraní má elegantní design, snadno se ovládá a používá.
+      Žádné složité seznamování, jste produktivní od první chvíle.
+  -
+    title: Snadné změny
+    image: /img/icons/carbon_direction-fork.svg
+    image-alt: direction-fork
+    text: Platforma ORIGAM je přizpůsobena častým změnám. Agilní vývoj Vám
+      umožní průběžně zkoušet software a včas říct další připomínky. Práce s
+      hotovými komponentami zase umožňuje snadnější a rychlejší dodání softwaru.
+  -
+    title: Dobře známé funkce
+    image: /img/icons/carbon_graphical-data-flow.svg
+    image-alt: flowchart
+    text: Používejte v tabulkách funkce, které dobře znáte. Filtrování,
+      třídění nebo seskupování dat. Vlastní nastavení si můžete uložit a sdílet
+      s ostatními. Cokoliv vidíte, můžete ihned exportovat do Excelu pro další
+      analýzu.
+
+aspects:
+  -
+    name: Reporty
+    content: Systém bez výstupů je jako černá díra. Když už dostanete data a
+      procesy do pořádku, můžete využít jedinečné možnosti reportovacích a
+      analytických nástrojů, se kterými ORIGAM spolupracuje. Umožněte svým
+      uživatelům zkoumat vaše data.
+    image: /img/icons/carbon_report-data.svg
+  -
+    name: Neomezený počet uživatelů
+    content: Nyní už se nemusíte bát přizvat do systému všechny vaše zákazníky
+      a partnery a zapojit je tak do společných procesů, protože byste se
+      nedoplatili. ORIGAM je svobodný software a nevyděláváme na licencích.
+    image: /img/icons/carbon_user-multiple.svg
+  -
+    name: Zabezpečení dat
+    content: Na rozdíl od Office dokumentů jsou data uložena v databázi a je
+      možné jejich správnost kontrolovat i složitými obchodními pravidly. Celý
+      systém je chráněn podrobnými přístupovými právy.
+    image: /img/icons/carbon_ibm-security.svg
+  -
+    name: Integrace
+    content: Proč ručně přepisovat data z nebo do jiných systémů? S Vaší
+      aplikaci můžete komunikovat snadno s jinými systémy anebo jiné systémy
+      pomocí API snadno propojit.
+    image: /img/icons/carbon_data-vis-1.svg
+  -
+    name: Procesy
+    content: Ještě lepší, než zapamatovat si interní proces je, pokud je tento
+      proces “zakódován” přímo v systému. Hlídejte stavy svých agend, 
+      upozorňujte uživatele a automatizujte tam, kde to dává smysl (např. 
+      automatizovaná fakturace při schválení objednávky).
+    image: /img/icons/carbon_connect.svg
+  -
+    name: Mapy
+    content: Je součástí vaší práce logistika, jste zemědělec, realitní
+      kancelář nebo prostě pracujete s mapovými podklady? ORIGAM umí data
+      vizualizovat na mapách. Můžete mapy používat přímo pro zakreslování bodů,
+      ploch nebo tras. Mapy mohou být běžnou součástí Vašeho informačního
+      systému.
+    image: /img/icons/carbon_map.svg
+  -
+    name: Přizpůsobení potřebám
+    content: Ačkoli ORIGAM obsahuje hotové osvědčené komponenty, které jsou
+      společné pro všechny zákazníky, je možné přizpůsobit výsledný systém i
+      Vašim přesným potřebám. Ať jsou to speciální vizuální prvky, napojení na
+      Váš specifický systém nebo neobvyklé algoritmy.
+    image: /img/icons/carbon_flow-modeler-reference.svg
+  -
+    name: Dokumenty
+    content: Ať je to archiv dokumentů, které sami v systému vygenerujete nebo
+      chcete ukládat dokumenty od svých zákazníků či do Vašich procesů zařadit
+      fotografie z terénu, není to problém. Ve svých agendách můžete pracovat s
+      přílohami, sdílet je se svými partnery nebo s nimi pracovat v jiných
+      webových či mobilních aplikacích.
+    image: /img/icons/carbon_document.svg
+
+industries:
+  -
+    name: Obchod & e-commerce
+    image: /img/pages/produkt/ecommerce.png
+    description: E-commerce aplikace postavená nad ORIGAM
+  -
+    name: Potravinářský průmysl
+    image: /img/pages/produkt/food.png 
+    description: ERP systém v potravinářském průmyslu
+  -
+    name: Pojišťovny
+    image: /img/pages/produkt/insurance.png 
+    description: Správa dokumentů
+  -
+    name: Reality
+    image: /img/pages/produkt/real.png 
+    description: Aplikace pro správu nemovitostí postavená nad ORIGAM
+  -
+    name: Služby
+    image: /img/pages/produkt/services.png 
+    description: Rezervační systém vytvořený nad ORIGAM
+  -
+    name: Telco
+    image: /img/pages/produkt/telco.png 
+    description: Software pro telefonní linku
+  -
+    name: Cestovní ruch
+    image: /img/pages/produkt/travel.png 
+    description: Rezervační systém vytvořený nad ORIGAM
+  -
+    name: Ostatní
+    image: /img/pages/produkt/other.png 
+    description: Rezervační systém vytvořený nad ORIGAM
+
+timeline:
+  -
+    title: Domluvte si s námi schůzku
+    explanation: Povíte nám, co Vás trápí a co potřebujete změnit.
+  -
+    title: Připravíme prototyp zdarma
+    explanation: Ten nám zabere pár dní a Vy si zkusíte, jak bude Váš nový
+      systém fungovat i vypadat.
+  -
+    title: Domluvíme si podrobnosti
+    explanation: Upřesníme si všechny technologické a procesní požadavky, cenu
+      i čas.
+  -
+    title: Vyvíjíme a ladíme
+    explanation: K vývoji přistupujeme agilně. Po menších částech. Tak, abyste
+      viděli progres a mohli nám včas říci své připomínky.
+  -
+    title: Nasazujeme!
+    explanation: Nasazení do Vašeho provozu i se zaškolením.
+  -
+    title: Pomáháme
+    explanation: Nenecháme Vás na holičkách. Poradí i pomůže komunita vývojářů
+      nebo certifikovaní partneři.
+
+testimonials:
+  -
+    logo: /img/pages/produkt/swiss.svg
+    logo-alt: Švýcarská konfederace
+    image: /img/pages/produkt/prison.jpg
+    title: Věznice také potřebuje sofistikovaný software
+    content: ORIGAM tvoří základ systému vyvinutého pro švýcarský úřad.
+      Umožňuje rychlou, objektivní a datově řízenou analýzu případu každého
+      vězně, včetně nebezpečí recidivy. Eliminuje možnost lidské chyby v úsudku
+      a přináší novou úroveň přísnosti do hodnocení případů zločinců. Projekt
+      jsme zvládli s velkou úsporou času i zdrojů.
+    name: Úřad probačních a nápravných služeb, Švýcarsko
+    link-text: www.rosnet.ch
+    link: https://www.rosnet.ch/
+  -
+    logo: /img/pages/produkt/tereos.svg
+    logo-alt: Tereos TTD
+    image: /img/pages/produkt/Dobrovice-sugar_factory.jpg
+    title: Český cukrovar zvládá logistiku surovin bez problémů
+    content: Dříve byl dovoz surovin koordinován telefonicky s řidiči. Náročná,
+      chaotická a neudržitelná situace. S novou podnikovou platformou na ORIGAM
+      firma automaticky sleduje polohu vozidel a objem dovážených surovin v
+      reálném čase, monitoruje další vstupy od zemědělců jako je kvalita půdy
+      i surovin, vytváří faktury a mnoho dalšího. První verzi aplikace jsme
+      dodali za 2 měsíce. (obrázek &copy; GT1976 CC BY-SA 4.0)
+    name: Tereos TTD, Česká republika
+    link-text: www.cukrovaryttd.cz
+    link: http://www.cukrovaryttd.cz
+  -
+    logo: /img/pages/produkt/agv.svg
+    logo-alt: AGV
+    image: /img/pages/produkt/Laufenburg_aargau_strassenbild.jpg
+    title: Přehledná evidence a správa pojistných smluv
+    content: Evidence tisíců pojistných smluv se nejlépe zvládá ve vlastním
+      systému založeném na ORIGAM. Švýcarská pojišťovna využívá automatickou
+      tvorbu dokumentů, skenování, třídění na základě čárových kódů a dokonce
+      umožňuje státní správě přístup přes extranet. To vše s 50% úsporou
+      nákladů oproti standardnímu softwaru. (obrázek &copy; Klaus Graf, CC-BY 2.5)
+    name: Pojišťovna budov kantonu Aargau, Švýcarsko
+    link-text: agv-ag.ch
+    link: https://agv-ag.ch/
+
+page-partners:
+  title: Partneři
+  description: Buďte pro své klienty spolehlivým dodavatelem enterprise softwaru.
+    Díky ORIGAM platformě je vývoj jednodušší a rychlejší než začít od nuly.
+  intro:
+    title: Poskytujte svým zákazníkům<br>jen kvalitní služby
+    text: Stát se certifikovaným partnerem ORIGAM je známka toho, že svým
+      zákazníkům poskytujete kvalitní služby s ORIGAM. A my Vás na to
+      připravíme.
+  advantages:
+    title: Výhody
+    subtitle: Proč být partnerem
+    button-text: Chci být oficiálním partnerem
+  examples:
+    title: Ukázky
+    subtitle: Jak ORIGAM vypadá?
+  benefits:
+    title: Benefity
+    subtitle: Co udělá ORIGAM za Vás?
+  process:
+    title: Proces
+    subtitle: Zaujal Vás ORIGAM?
+    button-text: Chci se s Vámi spojit
+  partner-list:
+    title: Seznam partnerů
+    button-text: Chci se s Vámi spojit
+
+partner-advantages:
+  -
+    name: Naučíme Vás stavět enterprise software
+    content: Vyvíjet backend pro interní systémy na míru je zdlouhavé a
+      náročné. Díky ORIGAM platformě už máte velkou část hotovou, tím si
+      <strong>vývoj podstatně zjednodušíte.</strong> Stihnete tak věnovat
+      pozornost i dalším zákazníkům.
+    image: /img/icons/carbon_model-alt.svg
+  -
+    name: Zákazníka zaujmete prototypem na míru
+    content: Prototyp v ORIGAM vytvoříte za pár dní. 
+      Zákazníkovi ukážete jeho představy o novém softwaru a získáte cennou
+      zpětnou vazbu hned na začátku. S prototypem máte už na první schůzce
+      <strong>konkurenční výhodu jak zaujmout zákazníka.</strong>
+    image: /img/icons/carbon_user-simulation.svg
+  -
+    name: Budete spolehlivým dodavatelem
+    content: Vyberte si model spolupráce podle oboru Vašemu podnikání. Ať už
+      jste softwaroví specialisté nebo podnikáte v jiném odvětví, ORIGAM
+      platforma bude pro Vás <strong>osvědčeným a profesionálním nástrojem,
+      </strong> který nesklame Vás ani Vaše zákazníky.
+    image: /img/icons/carbon_security.svg
+  -
+    name: Partnerství na dlouhá léta
+    content: ORIGAM platforma je open source, nic před Vámi neskrýváme. Máte
+      úplný přístup ke kódu i dokumentaci a tím <strong>plnou kontrolu nad
+      fungováním svého systému.</strong> Platformu budete využívat i dlouho
+      poté, co běžné podnikové systémy už zákazníkovi nestačí.
+    image: /img/icons/carbon_rocket.svg
+  -
+    name: Stojíme za Vámi
+    content: I když jste malá firma, s komunitou za zády budete konkurovat těm
+      větším. Využijte <strong>znalosti komunity,</strong> najměte si
+      <strong>externí vývojářský tým</strong> jiných partnerů nebo 
+      administrátory z komunity. Na tak dlouho, jak potřebujete.
+    image: /img/icons/carbon_share-knowledge.svg
+  -
+    name: Pomůžeme Vám se zakázkami
+    content: Být součástí ORIGAM komunity Vám umožní nejen sdílet znalosti, ale
+      také <strong>spolupracovat s jinými partnery,</strong> podílet se na 
+      společném marketingu nebo využít případové studie.
+    image: /img/icons/carbon_chart-venn-diagram.svg
+
+partner-examples:
+  -
+    name: Dashboard
+    image: /img/pages/partneri/dashboard.png
+  -
+    name: Databáze
+    image: /img/pages/partneri/database.png
+
+partner-benefits:
+  -
+    title: Zjednodušíte si vývoj interních systémů
+    image: /img/icons/carbon_connect-dark.svg
+  -
+    title: Rychlé a efektivní prototypování zaujme zákazníka
+    image: /img/icons/carbon_scis-transparent-supply.svg
+  -
+    title: Máte k dispozici externí vývojářský tým a administrátory
+    image: /img/icons/carbon_user-admin.svg
+
+partner-timeline:
+  -
+    title: Napište nám
+    explanation: Povězte nám, s čím potřebujete pomoct.
+  -
+    title: Probereme možnosti
+    explanation: Promluvíme si o technických možnostech ORIGAMu a jak platformu
+      využijete pro své klienty.
+  -
+    title: Vyberete si model spolupráce
+    explanation: Spolupráce přesně podle Vašich potřeb - až už jste IT vývojáři
+      nebo podnikáte v jiném oboru.
+  -
+    title: Akcelerujeme Vás
+    explanation: Zaučíme Vás, poskytneme podporu, pomůžeme v začátcích nebo si
+      najmete externí tým, který Vám se vším pomůže.
+  -
+    title: Jsme spolu na dlouho
+    explanation: Systém vyvinutý na ORIGAM je dlouhodobě udržitelný jak pro
+      Vás, tak i pro Vaše klienty.
+
+partner-list:
+  -
+    name: Advantage Solutions, s. r. o.
+    logo: /img/icons/advantage-solutions-partner.svg
+    link: 
+  -
+    name: CNW Computer Network
+    logo: /img/icons/cnw.svg
+    link: 
+  -
+    name: Icontel AG
+    logo: /img/icons/icontel.svg
+    link: 
+  -
+    name: be clever
+    logo: /img/icons/bez.svg
+    link: 
+  -
+    name: Indacom
+    logo: /img/icons/indacom.svg
+    link: 
+  -
+    name: Synergine, s. r. o.
+    logo: /img/icons/synergine-logo.svg
+    link: 
+  -
+    name: Metio Software s.r.o.
+    logo: /img/icons/metio.svg
+    link: 
+  -
+    name: Bewotec GmbH
+    logo: /img/icons/bewotec.svg
+    link: 
+  
+page-community:
+  title: Komunita
+  description: Komunitní fórum příznívců i odborníků na ORIGAM.
+    Najdete zde poznatky o vývoji platformy i návrhy na zlepšení.
+  intro:
+    title: Mít znalosti a informace – to je konkurenční výhoda.
+    text: Hledáte pomoc od ostatních nebo ji naopak nabízíte? O tom právě
+      komunita je. Dostupná každému. Sdílíme své poznatky o vývoji platformy,
+      radíme si jak opravit jednotlivé procesy, navrhujeme zlepšení a nové
+      funkcionality.
+
+community-links:
+  -
+    title: Komunitní fórum
+    image: /img/icons/forum.svg
+    image-alt: forum
+    text: Na komunitním fóru najdete veškerou dokumentaci, zdrojové kódy i
+      další informace.
+    button-text: Otevřít fórum
+    button-link: https://community.origam.com
+  -
+    title: Discord
+    image: /img/icons/carbon_logo-discord.svg
+    image-alt: discord-logo
+    text: Na našem Discordu se můžeme vzájemně potkávat a poznávat.
+    button-text: Chci se přidat
+    button-link: https://discord.com/invite/MkneJ3bS
+
+interested:
+  title: Zaujal Vás ORIGAM?
+  text: Chcete si vyzkoušet prototyp? Nebo se Vám ORIGAM líbí tak, že chcete
+    být partnerem? Napište nám, co potřebujete. Vše rádi zodpovíme.
+  button-text: Chci začít

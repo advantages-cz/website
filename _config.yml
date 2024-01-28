@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "cs"]
+exclude_from_localizations: ["assets"]
+assetsPath: "/assets"
+baseurl: "/"
+
+sass:
+  implementation: sass-embedded
+
+collections:

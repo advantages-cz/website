@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /404.html
+---
+<section class="community">
+    <div class="container">
+        <div class="titles">
+            <h1>
+                Page not found :(
+            </h1>
+            <p>
+                The page you are looking for does not exist. Maybe you wanted to visite one of these?
+            </p>
+        </div>
+    </div>
+</section>
+
+<script>
+    if(window.location.pathname.substring(0,5) === "/doc/")
+    {
+        var destination = "http://confluence.origam.com";
+        window.location.href = destination + window.location.pathname.substring(4) + (window.location.search || '') + (window.location.hash || '');
+    }
+</script>
+  

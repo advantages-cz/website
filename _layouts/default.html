@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="{{ site.lang }}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f15b47">
+		<meta name="apple-mobile-web-app-title" content="Advantage Solutions">
+		<meta name="application-name" content="Advantage Solutions">
+		<meta name="msapplication-TileColor" content="#f15b47">
+		<meta name="theme-color" content="#ffffff">
+
+		<link rel="stylesheet" href="{{ site.assetsPath }}/css/main.css">
+
+		{% if page.load_gsap %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+		{% endif %}
+
+		<script>
+			const __assetsPath = '{{ site.assetsPath }}'
+		</script>
+		<script src="{{ site.assetsPath }}/js/i18n/cs.js" defer></script>
+		<script src="{{ site.assetsPath }}/js/main.js" defer></script>
+
+		{% if page.title %}
+		<title>{% t page.title %} | Advantage Solutions</title>
+		{% else %}
+		<title>Advantage Solutions</title>
+		{% endif %}
+		{% if page.description %}
+			<meta name="description" content="{% t page.description %}">
+		{% endif %}
+	</head>
+	<body>
+		<header class="l-header">
+			<div class="header-container">
+				<div class="left-container">
+					<a class="l-header-logo" href="{% if site.baseurl == '/' %}/{% else %}{{ site.baseurl | remove_first: '/'}}{% endif %}">
+						<img src="{{ site.assetsPath }}/img/advantageSolutions-logo.svg" alt="Advantage Solutions" alt="Advantage Solutions logo">
+					</a>
+					<nav class="l-header-main-menu">
+						<ul aria-labelledby="l-header-main-menu-label">
+							<li>
+								<a href="{% include link link='whatwedo' %}">{% t page-whatwedo.title %}</a>
+							</li>
+							<li>
+								<a href="{% include link link='howWeWork' %}">{% t page-howwework.title %}</a>
+							</li>
+							<li>
+								<a href="{% include link link='AboutUs' %}">{% t page-aboutus.title %}</a>
+							</li>
+							<li>
+								<a href="{% include link link='workWithUs.html' %}">{% t page-workwithus.title %}</a>
+							</li>
+							<li>
+								<a href="{% include link link='contact' %}">{% t page-contact.title %}</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="l-header-buttons">
+                    {%- capture link -%}
+                        {%- if site.lang == "cs" -%}
+                            {%- if page.url == "/" -%}
+                                /
+                            {%- else -%}
+                                {{ page.permalink }}
+                            {%- endif -%}
+                        {%- else if site.lang == "en" -%}
+                            {%- if page.url == "/" -%}
+                                /cs
+                            {%- else -%}
+                                /cs{{ page.permalink_cs }}
+                            {%- endif -%}
+                        {%- endif -%}
+                    {%- endcapture -%}
+					<a href="{{ link }}" >
+                        {%- if site.lang == "cs" -%}
+                            English
+                        {%- else if site.lang == "en" -%}
+                            Česky
+                        {%- endif -%}
+					</a>
+                    {% include button.html 
+                        text="main.button-start"
+                        translate=true
+                        link="contact"
+                        small=true
+                     %}
+				</div>
+                <button class="menu-toggle">{% t main.header.menu %}</button>
+			</div>
+		</header>
+		<main id="hlavni-obsah" class="{{ page.main_class }}"> {{ content }}
+		</main>
+        <footer class="l-footer">
+            <div>{% t page-home.copyright.address %}</div>
+            <div>{% t page-home.copyright.date %}</div>
+        </footer>
+	</body>
+</html>
