@@ -3,14 +3,6 @@ main:
   header:
     menu: Nabidka
     follow: Sledovat
-  footer:
-    claim: Jsme česká společnost založená v roce 2003. 
-      Naším posláním je efektivně pomáhat firmám a institucím k digitalizaci.
-    copyright: ORIGAM je ochranná známka společnosti 
-      Advantage Solutions, s. r. o., Jihovýchodní II. 887, 141 00 Praha 4,
-      Czech Republic. Copyright © 2014&ndash;2023.
-    terms: Podmínky
-    privacy: Ochrana soukromí a GDPR
 
 page-whatwedo:
   title: CO DĚLÁME
@@ -179,7 +171,7 @@ page-contact:
   description: Zaujal Vás ORIGAM? Chcete si vyzkoušet prototyp nebo se stát partnerem?
     Napište nám, co potřebujete. Vše rádi zodpovíme.
 
-    
+
 about-us:
   title: about us
   description: about us
