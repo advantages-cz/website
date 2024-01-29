@@ -124,6 +124,10 @@
 	.list-row {
 		padding-top: 1.2rem;
 		padding-bottom: 1.2rem;
+		p a {
+			color: colors.brand(red, 0);
+			text-decoration: none;
+		}
 	}
 
 	.row {
@@ -365,8 +369,12 @@
 		border-radius: 4px;
 		gap: 1.0rem;
 
-		.text{
+		.text {
 			padding: 1.0rem;
+
+			 p {
+				line-height: 120%; 
+			 }
 		}
 
 		.member-pic {
@@ -797,11 +805,13 @@
 			flex-direction: row;
 			align-items: center;
 			gap: 1.0rem;
-			font-size: 2.0rem;
-			font-style: normal;
-			font-weight: 700;
-			text-decoration-line: underline;
-			color: colors.brand(white, 0);
+			a, div {
+				text-decoration-line: underline;
+				color: colors.brand(white, 0);
+				font-size: 2.0rem;
+				font-weight: 700;
+
+			}
 		}
 	}
 }

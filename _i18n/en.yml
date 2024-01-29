@@ -33,13 +33,13 @@ page-home:
     title1: Co děláme
     text1: Startupy i větší organizace potřebují k rozvoji zázemí v podobě spolehlivého interního systému, podpůrných aplikací a procesů. A my jim dokážeme pomoct. Nejdříve dáme hlavy dohromady a řekneme nahlas cíle, kterých chce klient dosáhnout. Poté navrhujeme cestu.
     title2: Vývoj specializovaného softwaru
-    text2: Softwarový prefabrikát nevyhovuje každému. Zajišťujeme kompletní vývoj softwaru na míru od nápadu, přes nasazení až po dlouhodobou podporu. Vyvíjíme v nejrozšířenějších nástrojích i pomocí vlastní open source platformy.
+    text2: Softwarový prefabrikát nevyhovuje každému. Zajišťujeme kompletní vývoj softwaru na míru od nápadu, přes nasazení až po dlouhodobou podporu. Vyvíjíme v nejrozšířenějších nástrojích i pomocí vlastní <a target="_blank" href="https://www.origam.com/">open source platformy.</a>
     title3: Podpora programátorským týmům
     text3: Potřebujete další programátorké talenty do týmu nebo poradit s architekturou? Doplníme Váš tým nejen o nového člena, ale také o cenné znalosti a zkušenosti.
     title4: Poradenství s řízením procesů
     text4: Máme zkušenosti s řízením procesů v různých odvětvích. V rámci spolupráce v nás máte i poradenskou oporu, kdy Vám dokážeme předat osvědčené postupy.
     title5: Sjednocení komunikace v týmu a komunitách
-    text5: Nehledejte pořád dokumenty, návody, dohody mezi kolegy nebo zákazníky. Připravíme přímo pro Vás komunikační nástroj a naučíme Vás s ním efektivně pracovat. Discourse.
+    text5: Nehledejte pořád dokumenty, návody, dohody mezi kolegy nebo zákazníky. Připravíme přímo pro Vás komunikační nástroj a naučíme Vás s ním efektivně pracovat. <a target="_blank" href="https://www.discourse.org/"> Discourse.</a>
   lets-start:
     text: Nejsme jenom programátoři. Pomáháme klientům růst, inovovat a transformovat.
     button: Začněme spolu
@@ -67,12 +67,14 @@ page-home:
     card5: Inovativní
     card6: Jednotní
     card7: Proaktivní
-    member-capkova: Backend senior vývojářka, která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce. Jaká je? Pečlivá, důsledná, zodpovědná, naše 1 pro modelování.
-    member-hrehorovsky: Senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví. Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
-    member-prajz: Backend vývojář, který také modeluje, navrhuje a spravuje systémy. Má zkušenosti s projekty pro neziskovku, sportovou organizaci nebo v tiskařském oboru. Jaká je? DevOps je pro něj základ, pracuje systematicky a rychle.
-    member-susen: Full stack senior vývojář, náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu. Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
-    member-urbanek: Senior backend architekt a databázový architekt. Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce. Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
-    member-vavrda: Zakladatel AS a tvůrce ORIGAM, manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání. Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
+    member-capkova: >
+      <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše #1 pro modelování.
+    member-hrehorovsky: <b>Senior vývojář,</b> maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
+    member-prajz: <b>Backend vývojář,</b> který také modeluje, navrhuje a spravuje systémy. Má zkušenosti s projekty pro neziskovku, sportovou organizaci nebo v tiskařském oboru.<br><br> Jaká je? DevOps je pro něj základ, pracuje systematicky a rychle.
+    member-susen: >
+      <b>Full stack senior vývojář,</b> náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
+    member-urbanek: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
+    member-vavrda: <b>Zakladatel AS a tvůrce ORIGAM,</b> manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání.<br><br> Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
   join-us:
     title: Chcete se k nám přidat?
     text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
