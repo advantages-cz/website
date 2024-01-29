@@ -117,55 +117,6 @@ page-home:
     address: Advantage Solutions, s. r. o., Jihovýchodní II. 887, 141 00 Praha 4, Czech Republic.
     date: Copyright © 2003–2023.
 
-
-page-about:
-  title: O nás
-  description: Naším posláním je efektivně pomáhat firmám a institucím k digitalizaci.
-    Chceme, aby se ORIGAM stal řešením č. 1 pro všechny softwarové vývojáře.
-  intro:
-    title: Historie
-    subtitle: Jak to vše začalo
-  mission:
-    title: Mise
-    subtitle: Chceme, aby se ORIGAM stal řešením č. 1 pro všechny softwarové
-      vývojáře, kteří vyžadují maximum flexibility a zároveň spolehlivosti s
-      rychlou technickou podporou.
-  story:
-    title: ORIGAM
-    subtitle: Příběh značky
-    text: "<p>Představte si origami: začnete nápadem, finální představou, kterou
-      máte v hlavě. Ohnete papír, a poté znovu. Trénujete, začnete něčím
-      snadným a držíte se instrukcí. Prototypujete. Naberete zkušenosti a
-      začnete zkoušet více a více sofistikované modely. Nakonec to celé
-      zvládnete od myšlenky přes zakázkový vývoj až do funkčního řešení.</p>
-      <p>Přesně takhle ORIGAM funguje.</p>"
-    quote: „I cesta dlouhá tisíc mil začíná jediným krokem.“
-    quote-author: Lao Tse
-
-origam-timeline:
-  -
-    date: 2003
-    title: Založili jsme společnost
-    explanation: Nejdříve jsme se zaměřili na všeobecná IT řešení pro malé a
-      střední podniky. Ale brzy jsme si uvědomili, že existuje poptávka po
-      řešení, které by mělo všechny výhody zakázkového softwaru, ale bez jeho
-      nevýhod. A tak jsme začali vyvíjet software. Zrodil se ORIGAM.
-  -
-    date: 2013
-    title: Zacílení na partnery
-    explanation: Rozhodli jsme se změnit strategii a zaměřit se zcela na 
-      implementátory softwaru a vývojáře. Místo abychom byli v přímém kontaktu
-      se zákazníky, rozhodli jsme se aby toto zastali naši partneři. Věříme,
-      že znají své zákazníky lépe, než bychom kdy mohli my, a tak se naší
-      starostí stalo dodávat partnerům správné nástroje, aby mohli tuto práci
-      provádět co nejlépe.
-  -
-    date: 2017
-    title: Opensource
-    explanation: Rozhodli jsme se uvolnit ORIGAM jako svobodný 
-      software – opensource.
-
-
 page-contact:
   title: Kontakt
   description: Zaujal Vás ORIGAM? Chcete si vyzkoušet prototyp nebo se stát partnerem?
