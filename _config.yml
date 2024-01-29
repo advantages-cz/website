@@ -4,7 +4,7 @@ plugins:
 languages: ["en", "cs"]
 exclude_from_localizations: ["assets"]
 assetsPath: "/assets"
-baseurl: "/"
+baseurl: "/website"
 
 sass:
   implementation: sass-embedded
