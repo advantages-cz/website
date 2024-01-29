@@ -1,7 +1,6 @@
 main:
   button-start: Chci začít
   header:
-    menu: Nabidka
     follow: Sledovat
 
 page-whatwedo:

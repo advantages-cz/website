@@ -71,6 +71,12 @@
     width: 35rem;
     top: -3rem;
     left: 40rem;
+		z-index: -1;
+
+		@media (max-width: bps.$L) {
+			left: 0;
+			top: 0;
+		}
 	}
 
 	.home-triangle-gradient {

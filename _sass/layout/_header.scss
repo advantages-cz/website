@@ -10,9 +10,9 @@
 	border-bottom: 1px solid var(--Red-Red, #E82929); 
 	transition: all 0.15s cubic-bezier(0.075, 0.82, 0.165, 1);
 
-	@media (min-width: bps.$L) {
-		justify-content: center;
-		padding: 2rem 2.5rem;
+	@media (max-width: bps.$L) {
+		padding: 1.5rem;
+		position: unset;
 	}
 
 	@media (min-width: bps.$XL) {
@@ -72,13 +72,9 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		// max-width: 80em;
 		width: 100%;
-		justify-content: center;
+		justify-content: space-between;
 
-		@media (min-width: bps.$L) {
-			justify-content: space-between;
-		}
 		.left-container {
 			display: flex;
 			flex-direction: row;
@@ -88,22 +84,16 @@
 }
 
 .l-header-logo {
-	top: 1.45rem;
-	left: 1.5rem;
 
-	@media (min-width: bps.$L) {
-		position: static;
-	}
+	// @media (min-width: bps.$L) {
+	// 	position: static;
+	// }
 
 	img {
 		max-height: 100%;
 		width: auto;
-		height: 1.125rem;
+		height: 2.5rem;
 		display: block;
-
-		@media (min-width: bps.$L) {
-			height: 2.5rem;
-		}
 	}
 }
 
