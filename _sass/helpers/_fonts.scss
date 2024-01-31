@@ -25,31 +25,34 @@ h5 {
 }
 
 h1 {
-	font-size: 2.25rem;
+	font-size: 5rem;
 	line-height: 120%;
-	letter-spacing: -0.02em;
-
-	@media (min-width: bps.$L) {
-		font-size: 5rem;
+	line-height: 132%; /* 4.785rem */ 
+	margin: 0;
+	
+	@media (max-width: bps.$L) {
+		font-size: 3.625rem;
 	}
 }
 
 /* subheaders */
 h2 {
-	font-size: 2rem;
+	font-size: 3rem;
 	line-height: 120%;
 	letter-spacing: 0.005em;
-
-	@media (min-width: bps.$L) {
-		font-size: 3rem;
+	margin: 0;
+	
+	@media (max-width: bps.$L) {
+		font-size: 3rem; 
 	}
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	line-height: 120%;
-
-	@media (min-width: bps.$L) {
+	margin: 0;
+	
+	@media (max-width: bps.$L) {
 		font-size: 2.5rem;
 	}
 }

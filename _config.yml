@@ -3,8 +3,8 @@ plugins:
 
 languages: ["en", "cs"]
 exclude_from_localizations: ["assets"]
-assetsPath: "/website/assets"
-baseurl: "/website"
+assetsPath: "/assets"
+baseurl: ""
 
 sass:
   implementation: sass-embedded

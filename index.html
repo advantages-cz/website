@@ -37,7 +37,7 @@ load_gsap: true
 <section class="what-we-do">
 	<div class="container">
 		<div class="row title-row">
-			<h2>{% t page-home.what-we-do.title1 %}</h2>
+			<h3>{% t page-home.what-we-do.title1 %}</h3>
 			<p>{% t page-home.what-we-do.text1 %}</p>
 		</div>
 		<div class="row list-row">
@@ -60,20 +60,18 @@ load_gsap: true
 </section>
 <section class="lets-start">
 	<div class="container">
-		<h2 class="text">{% t page-home.lets-start.text %}</h2>
-		<div>
+		<h3 class="text">{% t page-home.lets-start.text %}</h3>
 		{% include button.html
 			text="page-home.lets-start.button"
 			translate=true
 			link="contact"
 			%}
-		</div>
 	</div>
 </section>
 <section class="help-clients">
 	<div class="container">
 		<div class="first-row">
-			<h2>{% t page-home.help-clients.title %}</h2>
+			<h3>{% t page-home.help-clients.title %}</h3>
 			<p>{% t page-home.help-clients.text %}</p>
 		</div>
 		<div class="card-list">
@@ -120,7 +118,7 @@ load_gsap: true
 <section class="about-us">
 	<div class="container">
 		<div class="first-row">
-			<h2>{% t page-home.about-us.title %}</h2>
+			<h3>{% t page-home.about-us.title %}</h3>
 			<p>{% t page-home.about-us.text %}</p>
 		</div>
 		<div class="card-list">
@@ -224,17 +222,15 @@ load_gsap: true
 <section class="join-us">
 	<div class="container">
 		<div class="text-container">
-			<h2>{% t page-home.join-us.title %}</h2>
+			<h3>{% t page-home.join-us.title %}</h3>
 			<p>{% t page-home.join-us.text %}</p>
 		</div>
-		<div>
 		{% include button.html
 			text="page-home.join-us.button"
 			translate=true
 			link="contact"
 			style="style4"
 			%}
-		</div>
 	</div>
 </section>
 <section class="about-us-text">
@@ -243,14 +239,12 @@ load_gsap: true
 			<p>{% t page-home.about-us-text.text1 %}</p>
 			<p>{% t page-home.about-us-text.text2 %}</p>
 			<p>{% t page-home.about-us-text.text3 %}</p>
-			<div>
-				{% include button.html
-					text="page-home.join-us.button"
-					translate=true
-					link="contact"
-					style="style3"
-					%}
-				</div>
+			{% include button.html
+				text="page-home.join-us.button"
+				translate=true
+				link="contact"
+				style="style3"
+				%}
 			</div>
 			<div class="right-container">
 				<img src="{{ site.assetsPath }}/img/pages/home/about-us1.png" class="top-picture">
@@ -263,20 +257,18 @@ load_gsap: true
 </section>
 <section class="lets-start">
 	<div class="container">
-		<h2 class="text">{% t page-home.lets-start.text %}</h2>
-		<div>
+		<h3 class="text">{% t page-home.lets-start.text %}</h3>
 		{% include button.html
 			text="page-home.lets-start.button"
 			translate=true
 			link="contact"
 			%}
-		</div>
 	</div>
 </section>
 <section class="how-we-work">
 	<div class="container">
 		<div class="first-row">
-			<h2>{% t page-home.how-we-work.title %}</h2>
+			<h3>{% t page-home.how-we-work.title %}</h3>
 			<p>{% t page-home.how-we-work.text %}</p>
 		</div>
 		<div class="step-container">
@@ -330,75 +322,81 @@ load_gsap: true
 				<div>{% t page-home.how-we-work.tech-text %}</div>
 			</div>
 			<div class="tech-grid">
-				<div class="column">
-					<h4>{% t page-home.how-we-work.tech-sub-title1 %}</h4>
-					<div class="tile">
-						<div class="img">
-								<img src="{{ site.assetsPath }}/img/pages/home/technologies/origam.svg">
-						</div> 
-						<div>Origam</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/react.svg">
-						<div>React</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/javascript.svg">
-						<div>JavaScript</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/cpp.png">
-						<div>C++</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/docker.png">
-						<div>Docker</div>
-					</div> 
+				<div>
+				<h4>{% t page-home.how-we-work.tech-sub-title1 %}</h4>
+					<div class="column-pair">
+						<div class="column">
+							<div class="tile">
+								<div class="img">
+										<img src="{{ site.assetsPath }}/img/pages/home/technologies/origam.svg">
+								</div> 
+								<div>Origam</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/react.svg">
+								<div>React</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/javascript.svg">
+								<div>JavaScript</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/cpp.png">
+								<div>C++</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/docker.png">
+								<div>Docker</div>
+							</div> 
+						</div>
+						<div class="column">
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/dotnet.png" class="dotnet-icon">
+								<div>.NET</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/git.png">
+								<div>Git</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/as.png" class="as-icon">
+								<div>ActionScript</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/sql.png">
+								<div>SQL</div>
+							</div> 
+						</div>
+					</div>
 				</div>
-				<div class="column">
-					<h4></h4>
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/dotnet.png" class="dotnet-icon">
-						<div>.NET</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/git.png">
-						<div>Git</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/as.png" class="as-icon">
-						<div>ActionScript</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/sql.png">
-						<div>SQL</div>
-					</div> 
-				</div>
-				<div class="column">
+				<div>
 					<h4>{% t page-home.how-we-work.tech-sub-title2 %}</h4>
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/meap.png" class="meap-icon">
-						<div>Canon MEAP</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/discourse.png">
-						<div>Discourse</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/amadeus.png">
-						<div>Amadeus</div>
-					</div> 
-				</div>
-				<div class="column">
-					<h4></h4>
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/flexi.png">
-						<div>ABRA Flexi</div>
-					</div> 
-					<div class="tile">
-						<img src="{{ site.assetsPath }}/img/pages/home/technologies/pohoda.png">
-						<div>Pohoda</div>
-					</div>  
+					<div class="column-pair">
+						<div class="column">
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/meap.png" class="meap-icon">
+								<div>Canon MEAP</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/discourse.png">
+								<div>Discourse</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/amadeus.png">
+								<div>Amadeus</div>
+							</div> 
+						</div>
+						<div class="column">
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/flexi.png">
+								<div>ABRA Flexi</div>
+							</div> 
+							<div class="tile">
+								<img src="{{ site.assetsPath }}/img/pages/home/technologies/pohoda.png">
+								<div>Pohoda</div>
+							</div>  
+						</div>
+					</div>
 				</div>
 			</div>
 			<img src="{{ site.assetsPath }}/img/pages/home/logo_advantageSolutions.svg" class="logo">
@@ -438,13 +436,15 @@ load_gsap: true
 				</div>
 			</div>
 			<div class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/leco.png">
-					<div>Le&Co</div>
-				</div> 
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
+				<div class="tile-couple">
+					<div class="tile active-tile">
+						<img src="{{ site.assetsPath }}/img/pages/home/customers/leco.png">
+						<div>Le&Co</div>
+					</div> 
+					<div class="tile">
+						<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
+						<div>WyBy</div>
+					</div> 
 				</div> 
 				<div class="tile">
 					<img src="{{ site.assetsPath }}/img/pages/home/customers/elpida.png">
@@ -459,7 +459,7 @@ load_gsap: true
 		<h2>{% t page-home.contact.title %}</h2>
 		<p>{% t page-home.contact.text %}</p>
 		<div class="bottom-bar">
-			<img src="{{ site.assetsPath }}/img/pages/home/logo_advantageSolutions-bottom.svg">
+			<img class="logo" src="{{ site.assetsPath }}/img/pages/home/logo_advantageSolutions-bottom.svg">
 			<div class="mail">		
 				<img src="{{ site.assetsPath }}/img/pages/home/email.svg">
 				<a href = "mailto: info@advantages.cz">info@advantages.cz</a>
