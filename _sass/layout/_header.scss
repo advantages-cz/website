@@ -15,7 +15,7 @@
 		position: unset;
 	}
 
-	@media (min-width: bps.$XL) {
+	@media (min-width: bps.$XXL) {
 		padding: 2rem 7.5rem;
 	}
 
@@ -30,7 +30,7 @@
 			padding: 0.5rem 2.5rem;
 		}
 
-		@media (min-width: bps.$XL) {
+		@media (min-width: bps.$XXL) {
 			padding: 0.5rem 7.5rem;
 		}
 	}
@@ -236,6 +236,7 @@
 .l-header-submenu-toggle,
 .l-header-main-menu > ul > li > a {
 	text-decoration: none;
+	text-wrap: nowrap;
 }
 
 .l-header-submenu-toggle {
