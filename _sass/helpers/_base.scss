@@ -130,7 +130,8 @@ textarea {
  * Darker strong color.
  */
 strong {
-	@include type.bold-black;
+		font-weight: 700;
+	color: colors.brand(gray, 70);
 }
 
 /*

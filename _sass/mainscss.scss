@@ -1,8 +1,6 @@
 @use "sass:math";
 @use "settings/colors";
-@use "settings/sizes";
 @use "settings/breakpoints" as bps;
-@use "helpers/type";
 @use "helpers/z-index" as z;
 
 @import "helpers/base";
