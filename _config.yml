@@ -3,7 +3,7 @@ plugins:
 
 languages: ["en", "cs"]
 exclude_from_localizations: ["assets"]
-assetsPath: "/website/assets"
+assetsPath: "/assets"
 baseurl: ""
 
 sass:
