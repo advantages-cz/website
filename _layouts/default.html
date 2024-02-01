@@ -18,7 +18,6 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<link rel="stylesheet" href="{{ site.assetsPath }}/css/main.css">
-
 		{% if page.load_gsap %}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
@@ -49,19 +48,19 @@
 					<nav class="l-header-main-menu">
 						<ul aria-labelledby="l-header-main-menu-label">
 							<li>
-								<a href="{% include link link='whatwedo' %}">{% t page-whatwedo.title %}</a>
+								<a href="#what-we-do""> {% t page-whatwedo.title %}</a>
 							</li>
 							<li>
-								<a href="{% include link link='howWeWork' %}">{% t page-howwework.title %}</a>
+								<a href="#how-we-work">{% t page-howwework.title %}</a>
 							</li>
 							<li>
-								<a href="{% include link link='AboutUs' %}">{% t page-aboutus.title %}</a>
+								<a href="#about-us">{% t page-aboutus.title %}</a>
 							</li>
 							<li>
-								<a href="{% include link link='workWithUs.html' %}">{% t page-workwithus.title %}</a>
+								<a href="#join-us">{% t page-workwithus.title %}</a>
 							</li>
 							<li>
-								<a href="{% include link link='contact' %}">{% t page-contact.title %}</a>
+								<a href="#contact">{% t page-contact.title %}</a>
 							</li>
 						</ul>
 					</nav>
@@ -92,7 +91,7 @@
                     {% include button.html 
                         text="main.button-start"
                         translate=true
-                        link="contact"
+                        link="#contact"
                         small=true
                      %}
 				</div>

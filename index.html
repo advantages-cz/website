@@ -19,13 +19,13 @@ load_gsap: true
 				{% include button.html
 				text="page-home.intro.button-start"
 				translate=true
-				link="contact"
+				link="#contact"
 				style="style1"
 				%}
 				{% include button.html
 				text="page-home.intro.button-learn"
 				translate=true
-				link="#learn-more"
+				link="#what-we-do"
 				secondary=true
 				style="style2"
 				%}
@@ -34,7 +34,7 @@ load_gsap: true
 		<img src="{{ site.assetsPath }}/img/pages/home/advantages-big-logo.svg" class="home-bg-pic">
 	</div>
 </section>
-<section class="what-we-do">
+<section id="what-we-do">
 	<div class="container">
 		<div class="row title-row">
 			<h3>{% t page-home.what-we-do.title1 %}</h3>
@@ -64,7 +64,7 @@ load_gsap: true
 		{% include button.html
 			text="page-home.lets-start.button"
 			translate=true
-			link="contact"
+			link="#contact"
 			%}
 	</div>
 </section>
@@ -109,13 +109,13 @@ load_gsap: true
 			{% include button.html
 				text="page-home.help-clients.button"
 				translate=true
-				link="contact"
+				link="#contact"
 				style="style3"
 				%}
 		</div>
 	</div>
 </section>
-<section class="about-us">
+<section id="about-us">
 	<div class="container">
 		<div class="first-row">
 			<h3>{% t page-home.about-us.title %}</h3>
@@ -247,27 +247,15 @@ load_gsap: true
 						<p>{% t page-home.about-us.member-tomasko %}</p>
 					</div>
 				</div>
-
 				<div class="member-card empty">
-					{%- comment -%} <img src="{{ site.assetsPath }}/img/pages/home/members/photo-tomasko.png" class="member-pic"> {%- endcomment -%}
-					{%- comment -%} <div class="text">
-						<div class="name">Pavel Tomáško</div>
-						<p>{% t page-home.about-us.member-tomasko %}</p>
-					</div> {%- endcomment -%}
 				</div>
 				<div class="member-card empty">
-					{%- comment -%} <img src="{{ site.assetsPath }}/img/pages/home/members/photo-tomasko.png" class="member-pic"> {%- endcomment -%}
-					{%- comment -%} <div class="text">
-						<div class="name">Pavel Tomáško</div>
-						<p>{% t page-home.about-us.member-tomasko %}</p>
-					</div> {%- endcomment -%}
 				</div>
-
 			</div>
 		</div>
 	</div>
 </section>
-<section class="join-us">
+<section id="join-us">
 	<div class="container">
 		<div class="text-container">
 			<h3>{% t page-home.join-us.title %}</h3>
@@ -276,7 +264,7 @@ load_gsap: true
 		{% include button.html
 			text="page-home.join-us.button"
 			translate=true
-			link="contact"
+			link="#contact"
 			style="style4"
 			%}
 	</div>
@@ -290,7 +278,7 @@ load_gsap: true
 			{% include button.html
 				text="page-home.join-us.button"
 				translate=true
-				link="contact"
+				link="#contact"
 				style="style3"
 				%}
 			</div>
@@ -309,11 +297,11 @@ load_gsap: true
 		{% include button.html
 			text="page-home.lets-start.button"
 			translate=true
-			link="contact"
+			link="#contact"
 			%}
 	</div>
 </section>
-<section class="how-we-work">
+<section id="how-we-work">
 	<div class="container">
 		<div class="first-row">
 			<h3>{% t page-home.how-we-work.title %}</h3>
@@ -360,7 +348,7 @@ load_gsap: true
 			{% include button.html
 				text="page-home.how-we-work.button"
 				translate=true
-				link="contact"
+				link="#contact"
 				style="style3"
 				%}
 		</div>
@@ -502,7 +490,7 @@ load_gsap: true
 		</div>
 	</div>
 </section>
-<section class="contact">
+<section id="contact">
 	<div class="container">
 		<h2>{% t page-home.contact.title %}</h2>
 		<p>{% t page-home.contact.text %}</p>
