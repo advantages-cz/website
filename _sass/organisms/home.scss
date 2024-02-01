@@ -448,6 +448,14 @@
 			width: 100%;
 		}
 
+		&.empty {
+			border: none;
+
+			@media (max-width: bps.$L) {
+				display: none;
+			}
+		}
+
 		.text {
 			padding: 1.5rem 1rem;
 

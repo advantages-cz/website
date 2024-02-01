@@ -74,6 +74,14 @@ page-home:
       <b>Full stack senior vývojář,</b> náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
     member-urbanek: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
     member-vavrda: <b>Zakladatel AS a tvůrce ORIGAM,</b> manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání.<br><br> Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
+    member-gerliczyova: <b>Copywriterka,</b> marketérka a koordinátorka projektů.<br><br>Jaká je? Pokládá spoustu otázek, které pomáhají utřídit a vyjasnit si, co chcete a potřebujete pro své projekty. A pak Vám s tím pomůže.
+    member-hakr: <b>Konzultantka</b><br><br>Jaká je?
+    member-rajtr: >
+      <b>Správce dokumentace a koordinátor vzdělávání.</b>  Má zkušenosti ze zdravotnictví, hotelů, maloobchodu i vzdělávání.<br><br>Jaký je? Milovník zvířat, zodpovědný, nápomocný, klient je pro něj #1.
+    member-tomasko: >
+      <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.<br><br>Používá: React
+
+
   join-us:
     title: Chcete se k nám přidat?
     text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
