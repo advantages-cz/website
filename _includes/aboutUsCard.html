@@ -1,0 +1,19 @@
+{% capture title %}
+{% t include.title %}
+{% endcapture %}
+{% capture text %}
+{% t include.text %}
+{% endcapture %}
+<div class="card">
+    <div class="title-container">
+        <div class="card-title">{{ title }}</div>
+        <div class="line"></div>
+    </div>
+    <div class="back-side">
+        <div class="back-side-text">
+            {{ text }}
+        </div>
+    </div>
+    <div class="back-side-background">
+    </div>
+</div>

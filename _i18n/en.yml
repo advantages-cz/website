@@ -60,12 +60,19 @@ page-home:
     title: Toto jsme my
     text: Naším úkolem je pomoct Vám se zapeklitým problémem. Máme na to ty nejlepší vlastnosti.
     card1: Efektivní
+    card1-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     card2: ---
+    card2-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     card3: Nezávislí
+    card3-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     card4: Transparentní
+    card4-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     card5: Inovativní
+    card5-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     card6: Jednotní
+    card6-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     card7: Proaktivní
+    card7-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
     member-capkova: >
       <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše #1 pro modelování.
     member-hrehorovsky: <b>Senior vývojář,</b> maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.

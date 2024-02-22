@@ -33,10 +33,11 @@ $brand: (
 		900: #1A1C1F,
 	),
 	shadow:(
-		1: rgba(171, 171, 171, 0.25)
+		1: rgba(101, 101, 101, 0.25), 
+		2: rgba(171, 171, 171, 0.25)
 	),
 	gradients: (
-		primary: linear-gradient(229.97deg, #576CCE 0%, #3F2AC2 92.7%),
+		primary: linear-gradient(190deg, #576CCE 0%, #3F2AC2 100%),
 		secondary: linear-gradient(266.96deg, #FF8906 -5.36%, #FA6120 38.57%, #E82929 134.21%),
 		secondary-dark: linear-gradient(45.31deg, rgba(255, 137, 6, 0.75) -0.55%, rgba(241, 91, 71, 0.75) 50.25%, rgba(229, 49, 112, 0.75) 100%),
 		light: linear-gradient(90deg, #D6DEE3 0%, #D6DEE3 6.25%, #D7DFE5 12.5%, #D9DFE7 18.75%, #DCE0E9 25%, #E0E1EB 31.25%, #E6E2EC 37.5%, #ECE2ED 43.75%, #F2E3EC 50%, #F7E5EA 56.25%, #FBE7E7 62.5%, #FCE9E4 68.75%, #FDEBE3 75%, #FCEEE1 81.25%, #FBEFE1 87.5%, #FAF1E1 93.75%, #FAF1E1 100%),

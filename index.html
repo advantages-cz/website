@@ -62,10 +62,10 @@ load_gsap: true
 	<div class="container">
 		<h3 class="text">{% t page-home.lets-start.text %}</h3>
 		{% include button.html
-			text="page-home.lets-start.button"
-			translate=true
-			link="#contact"
-			%}
+		text="page-home.lets-start.button"
+		translate=true
+		link="#contact"
+		%}
 	</div>
 </section>
 <section class="help-clients">
@@ -107,11 +107,11 @@ load_gsap: true
 		</div>
 		<div class="button-container">
 			{% include button.html
-				text="page-home.help-clients.button"
-				translate=true
-				link="#contact"
-				style="style3"
-				%}
+			text="page-home.help-clients.button"
+			translate=true
+			link="#contact"
+			style="style3"
+			%}
 		</div>
 	</div>
 </section>
@@ -123,50 +123,36 @@ load_gsap: true
 		</div>
 		<div class="card-list">
 			<div class="card-row">
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card1 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card2 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card3 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card4 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
+				{% include aboutUsCard.html
+					title="page-home.about-us.card1"
+					text="page-home.about-us.card1-back-side"
+				%}
+				{% include aboutUsCard.html
+					title="page-home.about-us.card2"
+					text="page-home.about-us.card2-back-side"
+				%}
+				{% include aboutUsCard.html
+					title="page-home.about-us.card3"
+					text="page-home.about-us.card3-back-side"
+				%}
+				{% include aboutUsCard.html
+					title="page-home.about-us.card4"
+					text="page-home.about-us.card4-back-side"
+				%}
 			</div>
 			<div class="card-row">
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card5 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card6 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="title-container">
-						<div class="card-title">{% t page-home.about-us.card7 %}</div>
-						<div class="line"></div>
-					</div>
-				</div>
+				{% include aboutUsCard.html
+					title="page-home.about-us.card5"
+					text="page-home.about-us.card5-back-side"
+				%}
+				{% include aboutUsCard.html
+					title="page-home.about-us.card6"
+					text="page-home.about-us.card6-back-side"
+				%}
+				{% include aboutUsCard.html
+					title="page-home.about-us.card7"
+					text="page-home.about-us.card7-back-side"
+				%}
 			</div>
 		</div>
 		<div class="team">
@@ -262,11 +248,11 @@ load_gsap: true
 			<p>{% t page-home.join-us.text %}</p>
 		</div>
 		{% include button.html
-			text="page-home.join-us.button"
-			translate=true
-			link="#contact"
-			style="style4"
-			%}
+		text="page-home.join-us.button"
+		translate=true
+		link="#contact"
+		style="style4"
+		%}
 	</div>
 </section>
 <section class="about-us-text">
@@ -276,29 +262,29 @@ load_gsap: true
 			<p>{% t page-home.about-us-text.text2 %}</p>
 			<p>{% t page-home.about-us-text.text3 %}</p>
 			{% include button.html
-				text="page-home.join-us.button"
-				translate=true
-				link="#contact"
-				style="style3"
-				%}
+			text="page-home.join-us.button"
+			translate=true
+			link="#contact"
+			style="style3"
+			%}
+		</div>
+		<div class="right-container">
+			<img src="{{ site.assetsPath }}/img/pages/home/about-us1.png" class="top-picture">
+			<div class="bottom-pictures">
+				<img src="{{ site.assetsPath }}/img/pages/home/about-us2.png" class="bottom-picture">
+				<img src="{{ site.assetsPath }}/img/pages/home/about-us3.png" class="bottom-picture">
 			</div>
-			<div class="right-container">
-				<img src="{{ site.assetsPath }}/img/pages/home/about-us1.png" class="top-picture">
-				<div class="bottom-pictures">
-					<img src="{{ site.assetsPath }}/img/pages/home/about-us2.png" class="bottom-picture">
-					<img src="{{ site.assetsPath }}/img/pages/home/about-us3.png" class="bottom-picture">
-				</div>
-			</div>
+		</div>
 	</div>
 </section>
 <section class="lets-start">
 	<div class="container">
 		<h3 class="text">{% t page-home.lets-start.text %}</h3>
 		{% include button.html
-			text="page-home.lets-start.button"
-			translate=true
-			link="#contact"
-			%}
+		text="page-home.lets-start.button"
+		translate=true
+		link="#contact"
+		%}
 	</div>
 </section>
 <section id="how-we-work">
@@ -346,11 +332,11 @@ load_gsap: true
 		</div>
 		<div class="button-container">
 			{% include button.html
-				text="page-home.how-we-work.button"
-				translate=true
-				link="#contact"
-				style="style3"
-				%}
+			text="page-home.how-we-work.button"
+			translate=true
+			link="#contact"
+			style="style3"
+			%}
 		</div>
 		<div class="technologies">
 			<div class="tech-title">
@@ -359,49 +345,49 @@ load_gsap: true
 			</div>
 			<div class="tech-grid">
 				<div>
-				<h4>{% t page-home.how-we-work.tech-sub-title1 %}</h4>
+					<h4>{% t page-home.how-we-work.tech-sub-title1 %}</h4>
 					<div class="column-pair">
 						<div class="column">
 							<div class="tile">
 								<div class="img">
-										<img src="{{ site.assetsPath }}/img/pages/home/technologies/origam.svg">
-								</div> 
+									<img src="{{ site.assetsPath }}/img/pages/home/technologies/origam.svg">
+								</div>
 								<div>Origam</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/react.svg">
 								<div>React</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/javascript.svg">
 								<div>JavaScript</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/cpp.png">
 								<div>C++</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/docker.png">
 								<div>Docker</div>
-							</div> 
+							</div>
 						</div>
 						<div class="column">
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/dotnet.png" class="dotnet-icon">
 								<div>.NET</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/git.png">
 								<div>Git</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/as.png" class="as-icon">
 								<div>ActionScript</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/sql.png">
 								<div>SQL</div>
-							</div> 
+							</div>
 						</div>
 					</div>
 				</div>
@@ -412,31 +398,31 @@ load_gsap: true
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/meap.png" class="meap-icon">
 								<div>Canon MEAP</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/discourse.png">
 								<div>Discourse</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/amadeus.png">
 								<div>Amadeus</div>
-							</div> 
+							</div>
 						</div>
 						<div class="column">
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/flexi.png">
 								<div>ABRA Flexi</div>
-							</div> 
+							</div>
 							<div class="tile">
 								<img src="{{ site.assetsPath }}/img/pages/home/technologies/pohoda.png">
 								<div>Pohoda</div>
-							</div>  
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<img src="{{ site.assetsPath }}/img/pages/home/logo_advantageSolutions.svg" class="logo">
-	</div>
+		</div>
 </section>
 <section class="our-work">
 	<div class="container">
@@ -476,16 +462,16 @@ load_gsap: true
 					<div class="tile active-tile">
 						<img src="{{ site.assetsPath }}/img/pages/home/customers/leco.png">
 						<div>Le&Co</div>
-					</div> 
+					</div>
 					<div class="tile">
 						<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
 						<div>WyBy</div>
-					</div> 
-				</div> 
+					</div>
+				</div>
 				<div class="tile">
 					<img src="{{ site.assetsPath }}/img/pages/home/customers/elpida.png">
 					<div>Elpida</div>
-				</div> 
+				</div>
 			</div>
 		</div>
 	</div>
@@ -496,11 +482,11 @@ load_gsap: true
 		<p>{% t page-home.contact.text %}</p>
 		<div class="bottom-bar">
 			<img class="logo" src="{{ site.assetsPath }}/img/pages/home/logo_advantageSolutions-bottom.svg">
-			<div class="mail">		
+			<div class="mail">
 				<img src="{{ site.assetsPath }}/img/pages/home/email.svg">
-				<a href = "mailto: info@advantages.cz">info@advantages.cz</a>
+				<a href="mailto: info@advantages.cz">info@advantages.cz</a>
 			</div>
-			<div class="phone">		
+			<div class="phone">
 				<img src="{{ site.assetsPath }}/img/pages/home/phone.svg">
 				<a href="tel:+420 234 688 432">+420 234 688 432</a>
 			</div>
