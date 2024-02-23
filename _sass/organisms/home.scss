@@ -384,22 +384,35 @@
 
 		@media (max-width: bps.$L) {
 			flex-direction: column;
+
+			div.card-container {
+				position: unset;
+				display: flex;
+				min-width: unset;	
+				height: unset;
+				flex-direction: column;
+
+				.card {
+					position: unset;
+				}
+
+				.back-side {
+					display: flex;
+					position: unset;
+					box-shadow: unset;
+					border: 1px solid colors.brand(gray, 200);
+					min-width: 18.75rem;	
+					height: 12.75rem;
+					text-align: center;
+				}
+			}
 		}
 
-		.card {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			gap: 1.0rem;
+		.card-container {
 			min-width: 18.75rem;	
 			height: 12.75rem;
-			border: 1px solid colors.brand(gray, 200);
 			position: relative;
 
-			@media (max-width: bps.$L) {
-				width: 100%;
-			}
-			
 			&:hover {
 				> .back-side {
 					display: flex;
@@ -409,37 +422,52 @@
 					display: flex;
 				}
 			}
+		}
 
-			.back-side {
-				z-index: 2;
-				top: -0.25rem;
-				left: -0.25rem;
-				position: absolute;
-				display: none;
-				align-items: center;
-				min-width: 19.25rem;	
-				height: 13.25rem;
-				padding: 1.5rem 1rem; 
-				border: 1px solid colors.brand(gray, 200);
-				border-top: 0.25rem solid colors.brand(red, 0);
-				box-shadow: 1px 1px 16px 0px colors.brand(shadow, 1); 
+		.card {
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 1.0rem;
+			min-width: 18.75rem;	
+			height: 12.75rem;
+			border: 1px solid colors.brand(gray, 200);
 
-				> .back-side-text {
-					font-size: 1.25rem; 
-					line-height: 120%;
-				}
+			@media (max-width: bps.$L) {
+				width: 100%;
+		}
+			
+		}
+		.back-side {
+			z-index: 2;
+			top: -0.25rem;
+			left: -0.25rem;
+			position: absolute;
+			display: none;
+			align-items: center;
+			min-width: 19.25rem;	
+			height: 13.25rem;
+			padding: 1.5rem 1rem; 
+			border: 1px solid colors.brand(gray, 200);
+			border-top: 0.25rem solid colors.brand(red, 0);
+			box-shadow: 1px 1px 16px 0px colors.brand(shadow, 1); 
+
+			> .back-side-text {
+				font-size: 1.25rem; 
+				line-height: 120%;
 			}
-			.back-side-background {
-				z-index: 1;
-				top: -0.25rem;
-				left: -0.25rem;
-				position: absolute;
-				display: none;
-				min-width: 19.25rem;	
-				height: 13.25rem;
-				background-color:  colors.brand(white, 0);
-				display: none;
-			}
+		}
+		.back-side-background {
+			z-index: 1;
+			top: -0.25rem;
+			left: -0.25rem;
+			position: absolute;
+			display: none;
+			min-width: 19.25rem;	
+			height: 13.25rem;
+			background-color:  colors.brand(white, 0);
+			display: none;
 		}
 
 		@keyframes fadeInFromNone {
@@ -459,7 +487,6 @@
 			}
 		}
 	
-
 		.title-container {
 			display: flex;
 			flex-direction: column;
