@@ -1001,6 +1001,10 @@
 		.tile-couple {
 			display: flex;
 			gap: 1.5rem;
+
+			@media (max-width: bps.$L) {
+				flex-direction: column;
+			}
 		}
 		
 		.tile.active-tile {
