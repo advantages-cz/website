@@ -709,12 +709,14 @@
 	.step-container {
 		width: 100%;
 		display: flex;
-		flex-wrap: wrap;
 		gap: 1.0rem;
+		overflow-x: auto;
+		flex-wrap: nowrap;
 	}
 
 	.step {
-		width: 14.1rem;
+		min-width: 14.1rem;
+		max-width: 14.1rem;
 		display: flex;
 		flex-direction: column;
 
