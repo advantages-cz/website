@@ -28,6 +28,9 @@
 
 	.titles {
 		margin-bottom: 2.5rem;
+		display: flex;
+    flex-direction: column;
+		gap: 2.5rem;
 
 		@media (min-width: bps.$L) {
 			margin-bottom: 3rem;
@@ -72,26 +75,6 @@
 	.screenshot {
 		width: 100%;
 		height: auto;
-	}
-
-	.home-bg-pic {
-    position: absolute;
-    width: 35rem;
-    top: -3rem;
-    left: 40rem;
-		z-index: -1;
-
-		@media (max-width: bps.$L) {
-			left: 0;
-			top: 0;
-			min-width: 100%
-		}
-
-		@media (max-width: 500px) {
-			left: -25%;
-			top: 0;
-			min-width: 150%
-		}
 	}
 
 	.home-triangle-gradient {

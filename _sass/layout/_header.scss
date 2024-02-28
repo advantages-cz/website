@@ -1,3 +1,22 @@
+
+.main-container {
+	position: relative;
+  overflow-x: hidden;
+	width: 100%;
+
+	> img {
+		position: absolute;
+		max-width: 100rem;
+		top: 10rem;
+		left: 50%;
+		
+		@media (max-width: bps.$L) {
+			top: 2.1rem;
+			left: 35%;
+		}
+	}
+}
+
 .l-header {
 	display: flex;
 	z-index: z.index(l-header);
@@ -6,13 +25,14 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: colors.brand(white, 0);
+	background: colors.brand(white, 1);
 	border-bottom: 1px solid var(--Red-Red, #E82929); 
 	transition: all 0.15s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 	@media (max-width: bps.$L) {
 		padding: 1.5rem;
-		position: unset;
+		position: relative;
+		margin-bottom: 16rem;
 	}
 
 	@media (min-width: bps.$XXL) {
@@ -23,7 +43,6 @@
 		padding: 0 1.5rem;
 		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04),
 			0px 4px 8px rgba(0, 0, 0, 0.06);
-		// border-bottom: 1px solid colors.brand(gray, 100);
 		transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 		@media (min-width: bps.$L) {

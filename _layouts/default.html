@@ -39,70 +39,73 @@
 		{% endif %}
 	</head>
 	<body>
-		<header class="l-header">
-			<div class="header-container">
-				<div class="left-container">
-					<a class="l-header-logo" href="#">
-						<img src="{{ site.assetsPath }}/img/advantageSolutions-logo.svg" alt="Advantage Solutions" alt="Advantage Solutions logo">
-					</a>
-					<nav class="l-header-main-menu">
-						<ul aria-labelledby="l-header-main-menu-label">
-							<li>
-								<a href="#what-we-do""> {% t page-whatwedo.title %}</a>
-							</li>
-							<li>
-								<a href="#how-we-work">{% t page-howwework.title %}</a>
-							</li>
-							<li>
-								<a href="#about-us">{% t page-aboutus.title %}</a>
-							</li>
-							<li>
-								<a href="#join-us">{% t page-workwithus.title %}</a>
-							</li>
-							<li>
-								<a href="#contact">{% t page-contact.title %}</a>
-							</li>
-						</ul>
-					</nav>
+		<div class="main-container">
+			<header class="l-header">
+				<div class="header-container">
+					<div class="left-container">
+						<a class="l-header-logo" href="#">
+							<img src="{{ site.assetsPath }}/img/advantageSolutions-logo.svg" alt="Advantage Solutions" alt="Advantage Solutions logo">
+						</a>
+						<nav class="l-header-main-menu">
+							<ul aria-labelledby="l-header-main-menu-label">
+								<li>
+									<a href="#what-we-do""> {% t page-whatwedo.title %}</a>
+								</li>
+								<li>
+									<a href="#how-we-work">{% t page-howwework.title %}</a>
+								</li>
+								<li>
+									<a href="#about-us">{% t page-aboutus.title %}</a>
+								</li>
+								<li>
+									<a href="#join-us">{% t page-workwithus.title %}</a>
+								</li>
+								<li>
+									<a href="#contact">{% t page-contact.title %}</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="l-header-buttons">
+											{%- capture link -%}
+													{%- if site.lang == "cs" -%}
+															{%- if page.url == "/" -%}
+																	/
+															{%- else -%}
+																	{{ page.permalink }}
+															{%- endif -%}
+													{%- else if site.lang == "en" -%}
+															{%- if page.url == "/" -%}
+																	/cs
+															{%- else -%}
+																	/cs{{ page.permalink_cs }}
+															{%- endif -%}
+													{%- endif -%}
+											{%- endcapture -%}
+						<a href="{{ link }}" >
+													{%- if site.lang == "cs" -%}
+															English
+													{%- else if site.lang == "en" -%}
+															Česky
+													{%- endif -%}
+						</a>
+											{% include button.html 
+													text="main.button-start"
+													translate=true
+													link="#contact"
+													small=true
+											%}
+					</div>
+									<button class="menu-toggle"</button>
 				</div>
-				<div class="l-header-buttons">
-                    {%- capture link -%}
-                        {%- if site.lang == "cs" -%}
-                            {%- if page.url == "/" -%}
-                                /
-                            {%- else -%}
-                                {{ page.permalink }}
-                            {%- endif -%}
-                        {%- else if site.lang == "en" -%}
-                            {%- if page.url == "/" -%}
-                                /cs
-                            {%- else -%}
-                                /cs{{ page.permalink_cs }}
-                            {%- endif -%}
-                        {%- endif -%}
-                    {%- endcapture -%}
-					<a href="{{ link }}" >
-                        {%- if site.lang == "cs" -%}
-                            English
-                        {%- else if site.lang == "en" -%}
-                            Česky
-                        {%- endif -%}
-					</a>
-                    {% include button.html 
-                        text="main.button-start"
-                        translate=true
-                        link="#contact"
-                        small=true
-                     %}
-				</div>
-                <button class="menu-toggle"</button>
-			</div>
-		</header>
-		<main id="hlavni-obsah" class="{{ page.main_class }}"> {{ content }}
-		</main>
-        <footer class="l-footer">
-            <div>{% t page-home.copyright.address %}</div>
-            <div>{% t page-home.copyright.date %}</div>
-        </footer>
+			</header>
+			<main id="hlavni-obsah" class="{{ page.main_class }}"> {{ content }}
+			</main>
+			<img src="{{ site.assetsPath }}/img/pages/home/advantages-big-logo.svg" class="home-bg-pic">
+			<footer class="l-footer">
+					<div>{% t page-home.copyright.address %}</div>
+					<div>{% t page-home.copyright.date %}</div>
+			</footer>
+		</div>
 	</body>
 </html>
