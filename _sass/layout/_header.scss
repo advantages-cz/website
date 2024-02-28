@@ -239,14 +239,27 @@
 	&::before {
 		content: "";
 		display: block;
-		width: 1rem;
-		height: 1rem;
-		background: url("/assets/img/icons/carbon_menu.svg") no-repeat center;
+		width: 4rem;
+		height: 4rem;
+		background: url("/assets/img/icons/menu_icon.svg") no-repeat center;
+	}
+
+	&.open::before {
+		background: url("/assets/img/icons/close_button.svg") no-repeat center;
 	}
 
 	@media (min-width: bps.$L) {
 		position: static;
 		display: none;
+	}
+}
+
+.menu-visible .menu-toggle
+{
+	margin: 1.5rem;
+
+	&::before {
+		background: url("/assets/img/icons/close_button.svg") no-repeat center;
 	}
 }
 
