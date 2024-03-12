@@ -103,8 +103,11 @@
 			position: absolute;
 			margin-top: 1rem;
 
-			&::before {
-				background: url("/assets/img/icons/close_button.svg") no-repeat center;
+			#close-icon {
+				display: block;
+			}
+			#menu-icon {
+				display: none;
 			}
 		}
 	}
@@ -254,11 +257,14 @@
 		display: block;
 		width: 4rem;
 		height: 4rem;
-		background: url("/assets/img/icons/menu_icon.svg") no-repeat center;
 	}
 
-	&.open::before {
-		background: url("/assets/img/icons/close_button.svg") no-repeat center;
+	#close-icon {
+		display: none;
+	}
+
+	#menu-icon {
+		display: block;
 	}
 
 	@media (min-width: bps.$L) {
