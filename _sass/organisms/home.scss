@@ -1055,14 +1055,14 @@
 
 		.mail, .phone {
 			display: flex;
-			align-items: center;
+			align-items: start;
 			gap: 1.0rem;
 			a, div {
 				text-decoration-line: underline;
 				color: colors.brand(white, 0);
 				font-size: 2.0rem;
 				font-weight: 700;
-				text-wrap: nowrap;
+				text-wrap: wrap;
 			}
 		}
 	}
