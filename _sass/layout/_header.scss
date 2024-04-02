@@ -32,9 +32,7 @@
 
 	@media (max-width: bps.$L) {
 		padding: 1.5rem;
-		position: relative;
-		background: linear-gradient(197deg, #FFF 13.31%, rgba(255, 255, 255, 0.00) 111.95%), linear-gradient(199deg, #FFF 56.17%, rgba(255, 255, 255, 0.00) 99.92%);
-		backdrop-filter: blur(1px); 			
+		backdrop-filter: blur(1px);
 	}
 
 	@media (min-width: bps.$XXL) {
@@ -59,6 +57,7 @@
 	&.menu-visible {
 		height: 100%;
 		position: fixed;
+		background: linear-gradient(197deg, #FFF 13.31%, rgba(255, 255, 255, 0.00) 111.95%), linear-gradient(199deg, #FFF 56.17%, rgba(255, 255, 255, 0.00) 99.92%);
 
 		.l-header-main-menu {
 			display: flex;
