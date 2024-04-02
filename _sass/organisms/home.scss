@@ -910,7 +910,6 @@
 		padding: 4.5rem 1.5rem;
 	}
 
-
 	.container {
 		align-items: center;
 		flex-direction: column;
@@ -961,47 +960,48 @@
 				text-wrap: nowrap;
 				padding: 1rem;
 				font-size: 1.125rem;
-				line-height: 132%; /* 1.485rem */ 
+				line-height: 132%;
+				cursor: pointer;
 			}
 			.active {
 				font-weight: 600;
-				border-radius: 0.25rem; 
+				border-radius: 0.25rem;
 				background-color: colors.brand(red, 0);
 				color: colors.brand(white, 0);
 			}
 		}
 
 		.content {
-			display: flex;
 			flex-direction: row;
 			align-content: flex-start;
-    	flex-wrap: wrap;
+    		flex-wrap: wrap;
 			gap: 1.5rem;
+			display: none;
 
 			@media (max-width: bps.$L) {
 				flex-direction: column;
 			}
 		}
 
-		.tile-couple {
+		.visible {
 			display: flex;
-			gap: 1.5rem;
-
-			@media (max-width: bps.$L) {
-				flex-direction: column;
-			}
 		}
-		
-		.tile.active-tile {
-			border: 1px solid colors.brand(red, 0);
-			background: colors.brand(white, 0);
+
+		.tile {
+			cursor: pointer;
 
 			div {
-				color: colors.brand(red, 0);
+				color: colors.brand(gray, 100);
 			}
-		}
-		.tile div {
-			color: colors.brand(gray, 100);
+
+			&:hover {
+				border: 1px solid colors.brand(red, 0);
+				background: colors.brand(white, 0);
+
+				div {
+					color: colors.brand(red, 0);
+				}
+			}
 		}
 	}
 }

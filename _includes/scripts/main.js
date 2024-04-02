@@ -1,5 +1,6 @@
 const onDOMContentLoaded = () => {
 	nav();
+	ourWork();
 };
 
 document.readyState !== "loading"
