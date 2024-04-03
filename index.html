@@ -164,7 +164,7 @@ load_gsap: true
 						{% assign member_index = row_index | times: 3 | plus: column_number %}
 						{% if member_index < member_count%}
 							<div class="member-card">
-								<img src="{{ site.assetsPath }}/img/pages/home/members/photo-capkova.png" class="member-pic">
+								<img src="{{ site.assetsPath }}/{{members[member_index].photo}}" class="member-pic">
 								<div class="text">
 									<div class="name">{{ members[member_index].name}}</div>
 									<p>{{ members[member_index].description }}</p>
