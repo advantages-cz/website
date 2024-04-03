@@ -431,100 +431,23 @@ load_gsap: true
 			<p>{% t page-home.our-work.text %}</p>
 		</div>
 		<div class="table">
-			<div class="categories">
-				<div id="category1" class="category active">
-					{% t page-home.our-work.category1 %}
-				</div>
-				<div id="category2" class="category">
-					{% t page-home.our-work.category2 %}
-				</div>
-				<div id="category3" class="category">
-					{% t page-home.our-work.category3 %}
-				</div>
-				<div id="category4" class="category">
-					{% t page-home.our-work.category4 %}
-				</div>
-				<div id="category5" class="category">
-					{% t page-home.our-work.category5 %}
-				</div>
-				<div id="category6" class="category">
-					{% t page-home.our-work.category6 %}
-				</div>
-				<div id="category7" class="category">
-					{% t page-home.our-work.category7 %}
-				</div>
-				<div id="category8" class="category">
-					{% t page-home.our-work.category8 %}
-				</div>
+			<div class="industries">
+				{% for industry in site.translations[site.lang].page-home.our-work.industries %}
+					<div id="industry{{forloop.index}}" class="industry  {% if forloop.index == 1 %}active{% endif %}">
+						{{ industry.name }}
+					</div>
+				{% endfor %}
 			</div>
-			<div id="category1-content" class="content visible">
-				<a class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/leco.png">
-					<div>Le&Co</div>
-				</a>
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
+			{% for industry in site.translations[site.lang].page-home.our-work.industries %}
+				<div id="industry{{forloop.index}}-content" class="content {% if forloop.index == 1 %}visible{% endif %}">
+					{% for item in industry.content %}
+						<a class="tile" href={{item.link}} target="_blank" rel="noopener noreferrer">
+						<img src="{{ site.assetsPath }}/img/pages/home/customers/{{item.image}}">
+						<div>{{item.name}}</div>
+					</a>
+					{% endfor %}
 				</div>
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/elpida.png">
-					<div>Elpida</div>
-				</div>
-			</div>
-			<div id="category2-content" class="content">
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-				<div class="tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
-			<div id="category3-content" class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
-			<div id="category4-content" class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
-			<div id="category5-content" class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
-			<div id="category6-content" class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
-			<div id="category7-content" class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
-			<div id="category8-content" class="content">
-				<div class="tile active-tile">
-					<img src="{{ site.assetsPath }}/img/pages/home/customers/wyby.png">
-					<div>WyBy</div>
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>

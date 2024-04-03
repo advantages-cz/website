@@ -1,21 +1,21 @@
 const ourWork = () => {
-    const categoryLinks = document.querySelectorAll(".our-work .category");
-    const categoryContentNodes = document.querySelectorAll(".our-work .content");
+    const industryLinks = document.querySelectorAll(".our-work .industry");
+    const industryContentNodes = document.querySelectorAll(".our-work .content");
 
-    function activateCategoryLink(categoryId) {
-        for (const categoryLink of categoryLinks) {
-            if (categoryLink.id === categoryId) {
-                categoryLink.classList.add("active");
+    function activateIndustryLink(industryId) {
+        for (const industryLink of industryLinks) {
+            if (industryLink.id === industryId) {
+                industryLink.classList.add("active");
 			}
 			else
 			{
-                categoryLink.classList.remove("active");
+                industryLink.classList.remove("active");
 			}
         }
     }
-	function activateContent(categoryId) {
-		const contentId = categoryId + "-content";
-        for (const contentNode of categoryContentNodes) {
+	function activateContent(industryId) {
+		const contentId = industryId + "-content";
+        for (const contentNode of industryContentNodes) {
             if (contentNode.id === contentId) {
                 contentNode.classList.add("visible");
 			}
@@ -27,12 +27,12 @@ const ourWork = () => {
     }
 
     function init() {
-		for (const categoryLink of categoryLinks) {
-        categoryLink.addEventListener("click", function () {
-			activateCategoryLink(categoryLink.id);
-			activateContent(categoryLink.id);
-        });
-    }
+		for (const industryLink of industryLinks) {
+        industryLink.addEventListener("click", function () {
+			activateIndustryLink(industryLink.id);
+			activateContent(industryLink.id);
+            });
+        }
     }
 
     init();
