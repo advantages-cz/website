@@ -150,66 +150,66 @@ page-home:
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Food industry
         content:
           - name: Elpida
             link: https://www.elpida.cz
-            image: elpida.png
+            image: img/pages/home/customers/elpida.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Insurance companies
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Real estate
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Services
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Telco
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Tourism
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
       - name: Other
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: img/pages/home/customers/wyby.png
   contact:
     title: Kontakt
     text: Řekněte nám, s čím potřebujete pomoct nebo poradit. Spolu najdeme řešení.

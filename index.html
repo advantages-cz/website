@@ -382,7 +382,7 @@ load_gsap: true
 				<div id="industry{{forloop.index}}-content" class="content {% if forloop.index == 1 %}visible{% endif %}">
 					{% for item in industry.content %}
 						<a class="tile" href={{item.link}} target="_blank" rel="noopener noreferrer">
-						<img src="{{ site.assetsPath }}/img/pages/home/customers/{{item.image}}">
+						<img src="{{ site.assetsPath }}/{{item.image}}">
 						<div>{{item.name}}</div>
 					</a>
 					{% endfor %}
