@@ -155,88 +155,28 @@ load_gsap: true
 			</div>
 		</div>
 		<div class="team">
-			<div class="team-row">
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-capkova.png" class="member-pic">
-					<div class="text">
-						<div class="name">Zuzka Čapková</div>
-						<p>{% t page-home.about-us.member-capkova %}</p>
-					</div>
+			{% assign members = site.translations[site.lang].page-home.about-us.members %}
+			{% assign member_count = members | size %}
+			{% assign row_count = member_count | divided_by: 3 | ceil | plus: 1 %}
+			{% for row_index in (0..row_count) %}
+				<div class="team-row">
+					{% for column_number in (0..2) %}
+						{% assign member_index = row_index | times: 3 | plus: column_number %}
+						{% if member_index < member_count%}
+							<div class="member-card">
+								<img src="{{ site.assetsPath }}/img/pages/home/members/photo-capkova.png" class="member-pic">
+								<div class="text">
+									<div class="name">{{ members[member_index].name}}</div>
+									<p>{{ members[member_index].description }}</p>
+								</div>
+							</div>
+						{% else %}
+							<div class="member-card empty">
+							</div>
+						{% endif %}
+					{% endfor %}
 				</div>
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-hrehorovsky.png" class="member-pic">
-					<div class="text">
-						<div class="name">Petr Hrehorovský</div>
-						<p>{% t page-home.about-us.member-hrehorovsky %}</p>
-					</div>
-				</div>
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-prajz.png" class="member-pic">
-					<div class="text">
-						<div class="name">Jirka Prajz</div>
-						<p>{% t page-home.about-us.member-prajz %}</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-row">
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-susen.png" class="member-pic">
-					<div class="text">
-						<div class="name">Jindra Sušeň</div>
-						<p>{% t page-home.about-us.member-susen %}</p>
-					</div>
-				</div>
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-urbanek.png" class="member-pic">
-					<div class="text">
-						<div class="name">Vašek Urbánek</div>
-						<p>{% t page-home.about-us.member-urbanek %}</p>
-					</div>
-				</div>
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-vavrda.jpeg" class="member-pic">
-					<div class="text">
-						<div class="name">Tomáš Vavrda</div>
-						<p>{% t page-home.about-us.member-vavrda %}</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-row">
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-gerliczyova.png" class="member-pic">
-					<div class="text">
-						<div class="name">Majka Gerliczyová</div>
-						<p>{% t page-home.about-us.member-gerliczyova %}</p>
-					</div>
-				</div>
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-hakr.png" class="member-pic">
-					<div class="text">
-						<div class="name">Nela Hakr</div>
-						<p>{% t page-home.about-us.member-hakr %}</p>
-					</div>
-				</div>
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-rajtr.png" class="member-pic">
-					<div class="text">
-						<div class="name">Zdeněk Rajtr</div>
-						<p>{% t page-home.about-us.member-rajtr %}</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-row">
-				<div class="member-card">
-					<img src="{{ site.assetsPath }}/img/pages/home/members/photo-tomasko.png" class="member-pic">
-					<div class="text">
-						<div class="name">Pavel Tomáško</div>
-						<p>{% t page-home.about-us.member-tomasko %}</p>
-					</div>
-				</div>
-				<div class="member-card empty">
-				</div>
-				<div class="member-card empty">
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>
