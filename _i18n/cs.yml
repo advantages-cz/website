@@ -108,9 +108,9 @@ page-home:
   join-us:
     title: Chcete se k nám přidat?
     text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
-    button: Chci Vás
+    button: Chci s Vámi pracovat
   about-us-text:
-    text1: Společnost Advantage Solutions, s.r.o. vznikla v roce 2003 v ČR s cílem vyvíjet všeobecná IT řešení pro malé a střední firmy. Klienti často poptávali specifická řešení a tak jsme vyvinuli vlastní software ORIGAM. Má výhody zakázkového softwaru, navíc je flexibilní, spolehlivý, s rychlou technickou podporu a od roku 2017 jako open source.
+    text1: Společnost Advantage Solutions, s.r.o. vznikla v roce 2003 v ČR s cílem vyvíjet všeobecná IT řešení pro malé a střední firmy. Specifická poptávka nás přivedla k vývoji vlastního softwaru <a target="_blank" href="https://www.origam.com/"> ORIGAM</a>. Má výhody zakázkového softwaru, navíc je flexibilní, spolehlivý, s rychlou technickou podporu a od roku 2017 jako open source.
     text2: Systémy od nás pomáhají klientům s automatizací, podporou procesů, v rozhodování na základě přesných dat a přehledných uživatelských rozhraní.
     text3: Naším posláním je efektivně pomáhat firmám a organizacím k digitalizaci.
   how-we-work:
@@ -124,11 +124,11 @@ page-home:
     step3-title: 3. Navrhujeme řešení
     step3-text: Připravíme postup spolupráce nebo prototyp nového systému, abyste si zkusili, jak bude fungovat a vypadat.
     step4-title: 4. Pracujeme agilně
-    step4-text: Po upřesnění podrobností začínáme vyvíjet, implementovat nebo konzultovat. Jste v kontaktu s vývojáři a máte aktuální přehled o dění na projektu. Kryjeme Vám záda
+    step4-text: Po upřesnění podrobností začínáme vyvíjet, implementovat nebo konzultovat. Jste v kontaktu s vývojáři a máte aktuální přehled o dění na projektu.
     step5-title: 5. Kryjeme Vám záda
     step5-text: Implementací to nemusí končit. Rádi udržujeme dlouhodobé vztahy s klienty.
     tech-title: V čem jsme dobří
-    tech-text: Technologie, nástroje a programovací jazyky, které máme v malíčku
+    tech-text: Technologie a programovací jazyky
     tech-sub-title1: Technologie
     tech-sub-title2: Integrace
   our-work:
