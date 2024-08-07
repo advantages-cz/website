@@ -102,7 +102,7 @@ page-home:
       - name: David Pilpach
         photo: img/pages/home/members/photo-David-Pilpach.jpg
         description: <b>Full stack vývojář.</b>  Podílel se na vývoji administrativních systémů, zajímá se o logistiku.<br><br>Jaký je? Pracuje spolehlivě a rychle a ve volném čase profesionálne skáče.
-       join-us:
+  join-us:
     title: Chcete se k nám přidat?
     text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
     button: Chci s Vámi pracovat
