@@ -72,40 +72,37 @@ page-home:
     card6: Proaktivní
     card6-back-side: Domýšlíme nedomyšlená zadání, abychom vytvořili smysluplný produkt.
     members:
-      - name: Zuzka Čapková
-        photo: img/pages/home/members/photo-capkova.png
-        description: >
-          <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše #1 pro modelování.
-      - name: Petr Hrehorovský
-        photo: img/pages/home/members/photo-hrehorovsky.png
-        description: <b>Provozní ředitel,</b> senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
-      - name: Jirka Prajz
-        photo: img/pages/home/members/photo-prajz.png
-        description: <b>Backend vývojář,</b> který také modeluje, navrhuje a spravuje systémy. Má zkušenosti s projekty pro neziskovku, sportovou organizaci nebo v tiskařském oboru.<br><br> Jaká je? DevOps je pro něj základ, pracuje systematicky a rychle.
-      - name: Jindra Sušeň
-        photo: img/pages/home/members/photo-susen.png
-        description:  >
-          <b>Senior full stack vývojář,</b> náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
-      - name: Vašek Urbánek
-        photo: img/pages/home/members/photo-susen.png
-        description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
       - name: Tomáš Vavrda
-        photo: img/pages/home/members/photo-vavrda.png
+        photo: img/pages/home/members/photo-Tomas-Vavrda.jpg
         description: <b>Zakladatel Advantage Solutions a tvůrce ORIGAM,</b> manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání.<br><br> Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
+      - name: Petr Hrehorovský
+        photo: img/pages/home/members/photo-Petr-Hrehorovsky.jpg
+        description: <b>Provozní ředitel,</b> senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
+      - name: Vašek Urbánek
+        photo: img/pages/home/members/photo-Vaclav-Urbanek.jpg
+        description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
+      - name: Jindra Sušeň
+        photo: img/pages/home/members/photo-Jindrich-Susen.jpg
+        description: <b>Senior full stack vývojář,</b> náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
+      - name: Pavel Tomáško
+        photo: img/pages/home/members/photo-Pavel-Tomasko.jpg
+        description: <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.
+      - name: Zuzka Čapková
+        photo: img/pages/home/members/photo-Zuzana-Capkova.jpg
+        description: <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše #1 pro modelování.
       - name: Majka Gerliczyová
-        photo: img/pages/home/members/photo-gerliczyova.png
+        photo: img/pages/home/members/photo-Maria-Gerliczyova.jpg
         description: <b>Copywriterka,</b> marketérka a koordinátorka projektů.<br><br>Jaká je? Pokládá spoustu otázek, které pomáhají utřídit a vyjasnit si, co chcete a potřebujete pro své projekty. A pak Vám s tím pomůže.
       - name: Nela Hakr
-        photo: img/pages/home/members/photo-hakr.png
-        description:  <b>Konzultantka</b><br><br>Jaká je?
+        photo: img/pages/home/members/photo-Nela-Hakr.jpg
+        description: <b>Konzultantka, backend vývojářka a správkyně dokumentace.</b> Má zkušenosti s organizací vzdělávacích akcí v univerzitním prostredí, podporou implementace podnikové aplikace i s projektovým řízením.<br><br>Jaká je? Záleží jí na životním prostředí, miluje matematiku a cestování.
+      - name: Táňa Beránková Císařová
+        photo: img/pages/home/members/photo-Tatana-Berankova-Cisarova.jpg
+        description: <b>Konzultantka projektového inkubátoru.</b> Je zkušená pedagožka ekonomiky, podporuje inovace ve vzdělávání a spolupráci mezi studenty a podnikateli.<br><br> Jaká je? Nadšená do práce a nových úkolů, plná energie.
       - name: David Pilpach
-        photo: img/pages/home/members/photo-rajtr.png
-        description: <b>Full stack vývojář.</b>  Student.<br><br>Jaký je? Profesionálně skáče a je svědomitý a zodpovědný v práci.
-      - name: Pavel Tomáško
-        photo: img/pages/home/members/photo-tomasko.png
-        description: >
-          <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.
-  join-us:
+        photo: img/pages/home/members/photo-David-Pilpach.jpg
+        description: <b>Full stack vývojář.</b>  Podílel se na vývoji administrativních systémů, zajímá se o logistiku.<br><br>Jaký je? Pracuje spolehlivě a rychle a ve volném čase profesionálne skáče.
+       join-us:
     title: Chcete se k nám přidat?
     text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
     button: Chci s Vámi pracovat
