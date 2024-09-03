@@ -79,13 +79,13 @@ page-home:
         description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
       - name: Jindra Sušeň
         photo: img/pages/home/members/photo-Jindrich-Susen.jpg
-        description: <b>Senior full stack vývojář,</b> náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
+        description: <b>Senior full stack vývojář,</b> náš programátor "#"1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
       - name: Pavel Tomáško
         photo: img/pages/home/members/photo-Pavel-Tomasko.jpg
         description: <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.
       - name: Zuzka Čapková
         photo: img/pages/home/members/photo-Zuzana-Capkova.jpg
-        description: <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše #1 pro modelování.
+        description: <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše "#"1 pro modelování.
       - name: Majka Gerliczyová
         photo: img/pages/home/members/photo-Maria-Gerliczyova.jpg
         description: <b>Copywriterka,</b> marketérka a koordinátorka projektů.<br><br>Jaká je? Pokládá spoustu otázek, které pomáhají utřídit a vyjasnit si, co chcete a potřebujete pro své projekty. A pak Vám s tím pomůže.
@@ -138,68 +138,56 @@ page-home:
     industries:
       - name: Sales & eCommerce
         content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
+          - name: Icontel AG
+            link: https://www.icontel.com/en-us/Default.aspx
+            image: 
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
             image: wyby.png
       - name: Food industry
         content:
+          - name: Le&Co
+            link: https://www.le-co.cz
+            image: leco.png
+      - name: Insurance companies
+        content:
+          - name: AGV
+            link: https://agv-ag.ch/
+            image: 
+      - name: Real estate
+        content:
+          - name: PIE Properties
+            link: https://www.pie.properties/
+            image: 
+      - name: Services
+        content:
+          - name: Taldis AG
+            link: https://www.taldis.ch/
+            image: 
+          - name: Navijárna HMF
+            link: http://www.navijarna-hmf.cz/
+            image: 
+      - name: Telco
+        content:
           - name: Elpida
             link: https://www.elpida.cz
             image: elpida.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
-      - name: Insurance companies
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
-      - name: Real estate
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
-      - name: Services
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
-      - name: Telco
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
       - name: Tourism
         content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+          - name: Germania Flug AG
+            link: 
+            image: 
+          - name: PLANTOURS Kreuzfahrten
+            link: https://www.plantours-kreuzfahrten.de/
+            image: 
       - name: Other
         content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+          - name: Speedtracker
+            link: https://speedtracker.org/
+            image: 
+          - name: FAČR
+            link: https://www.fotbal.cz/
+            image: 
   contact:
     title: Kontakt
     text: Řekněte nám, s čím potřebujete pomoct nebo poradit. Spolu najdeme řešení.
