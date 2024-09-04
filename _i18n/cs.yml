@@ -140,10 +140,10 @@ page-home:
         content:
           - name: Icontel AG
             link: https://www.icontel.com/en-us/Default.aspx
-            image: 
+            image: icontel.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.png
+            image: wyby.svg
       - name: Food industry
         content:
           - name: Le&Co
@@ -153,41 +153,41 @@ page-home:
         content:
           - name: AGV
             link: https://agv-ag.ch/
-            image: 
+            image: agv.svg
       - name: Real estate
         content:
           - name: PIE Properties
             link: https://www.pie.properties/
-            image: 
+            image: pie.png
       - name: Services
         content:
           - name: Taldis AG
             link: https://www.taldis.ch/
-            image: 
+            image: taldis.png
           - name: Navijárna HMF
             link: http://www.navijarna-hmf.cz/
-            image: 
+            image: navijarna.png
       - name: Telco
         content:
           - name: Elpida
             link: https://www.elpida.cz
-            image: elpida.png
+            image: elpida.svg
       - name: Tourism
         content:
           - name: Germania Flug AG
             link: 
             image: 
-          - name: PLANTOURS Kreuzfahrten
+          - name: Plantours Kreuzfahrten
             link: https://www.plantours-kreuzfahrten.de/
-            image: 
+            image: plantours.svg
       - name: Other
         content:
           - name: Speedtracker
             link: https://speedtracker.org/
-            image: 
+            image: speedtracker.png
           - name: FAČR
             link: https://www.fotbal.cz/
-            image: 
+            image: facr.png
   contact:
     title: Kontakt
     text: Řekněte nám, s čím potřebujete pomoct nebo poradit. Spolu najdeme řešení.
