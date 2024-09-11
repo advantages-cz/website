@@ -1,11 +1,14 @@
 main:
-  button-start: Chci začít
+  button-learn: Zjistit více
   header:
     follow: Sledovat
 
 page-whatwedo:
   title: CO DĚLÁME
 
+page-help-client:
+  title: S ČÍM POMŮŽEME
+  
 page-howwework:
   title: JAK PRACUJEME
 
@@ -22,7 +25,6 @@ page-home:
   intro:
     title: Rozvíjíme Vaši digitální budoucnost
     subtitle: Vytváříme řešení pro týmy a podnikání
-    button-start: Chci začít
     button-learn: Zjistit více
   what-we-do:
     title1: Co děláme
@@ -36,7 +38,7 @@ page-home:
     title5: Sjednocení komunikace v týmu a komunitách
     text5: Nehledejte pořád dokumenty, návody, dohody mezi kolegy nebo zákazníky. Připravíme přímo pro Vás komunikační nástroj a naučíme Vás s ním efektivně pracovat. <a target="_blank" href="https://www.discourse.cz/"> Discourse.</a>
   lets-start:
-    text: Nejsme jenom programátoři. Pomáháme klientům růst, inovovat a transformovat.
+    text: Jsme víc než programátoři. Pomáháme klientům růst, inovovat a transformovat.
     button: Začněme spolu
   help-clients:
     title: S čím pomůžeme
@@ -73,7 +75,7 @@ page-home:
         description: <b>Zakladatel Advantage Solutions a tvůrce ORIGAM,</b> manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání.<br><br> Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
       - name: Petr Hrehorovský
         photo: img/pages/home/members/photo-Petr-Hrehorovsky.jpg
-        description: <b>Provozní ředitel,</b> senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
+        description: <b>Provozní ředitel,</b> senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost: Petr je v týmu už 15 let a pořád ho to s námi baví.
       - name: Vašek Urbánek
         photo: img/pages/home/members/photo-Vaclav-Urbanek.jpg
         description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
@@ -136,7 +138,7 @@ page-home:
     category7: Tourism
     category8: Other
     industries:
-      - name: Sales & eCommerce
+      - name: Obchod & e-commerce
         content:
           - name: Icontel AG
             link: https://www.icontel.com/en-us/Default.aspx
@@ -144,22 +146,22 @@ page-home:
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
             image: wyby.svg
-      - name: Food industry
+      - name: Potravinářský průmysl
         content:
           - name: Le&Co
             link: https://www.le-co.cz
             image: leco.png
-      - name: Insurance companies
+      - name: Pojišťovny
         content:
           - name: AGV
             link: https://agv-ag.ch/
             image: agv.svg
-      - name: Real estate
+      - name: Reality
         content:
           - name: PIE Properties
             link: https://www.pie.properties/
             image: pie.png
-      - name: Services
+      - name: Služby
         content:
           - name: Taldis AG
             link: https://www.taldis.ch/
@@ -172,7 +174,7 @@ page-home:
           - name: Elpida
             link: https://www.elpida.cz
             image: elpida.svg
-      - name: Tourism
+      - name: Cestovní ruch
         content:
           - name: Germania Flug AG
             link: 
@@ -180,7 +182,7 @@ page-home:
           - name: Plantours Kreuzfahrten
             link: https://www.plantours-kreuzfahrten.de/
             image: plantours.svg
-      - name: Other
+      - name: Ostatní
         content:
           - name: Speedtracker
             link: https://speedtracker.org/
