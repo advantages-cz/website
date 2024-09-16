@@ -139,38 +139,38 @@ page-home:
         content:
           - name: Icontel AG
             link: https://www.icontel.com/en-us/Default.aspx
-            image: icontel.png
+            image: img/pages/home/customers/icontel.png
           - name: WyBy
             link: https://www.wyby.ch/en-us/Default.aspx
-            image: wyby.svg
+            image: img/pages/home/customers/wyby.svg
       - name: Potravinářský průmysl
         content:
           - name: Le&Co
             link: https://www.le-co.cz
-            image: leco.png
+            image: img/pages/home/customers/leco.png
       - name: Pojišťovny
         content:
           - name: AGV
             link: https://agv-ag.ch/
-            image: agv.svg
+            image: img/pages/home/customers/agv.svg
       - name: Reality
         content:
           - name: PIE Properties
             link: https://www.pie.properties/
-            image: pie.png
+            image: img/pages/home/customers/pie.png
       - name: Služby
         content:
           - name: Taldis AG
             link: https://www.taldis.ch/
-            image: taldis.png
+            image: img/pages/home/customers/taldis.png
           - name: Navijárna HMF
             link: http://www.navijarna-hmf.cz/
-            image: navijarna.png
+            image: img/pages/home/customers/navijarna.png
       - name: Telco
         content:
           - name: Elpida
             link: https://www.elpida.cz
-            image: elpida.svg
+            image: img/pages/home/customers/elpida.svg
       - name: Cestovní ruch
         content:
           - name: Germania Flug AG
@@ -178,15 +178,15 @@ page-home:
             image: 
           - name: Plantours Kreuzfahrten
             link: https://www.plantours-kreuzfahrten.de/
-            image: plantours.svg
+            image: img/pages/home/customers/plantours.svg
       - name: Ostatní
         content:
           - name: Speedtracker
             link: https://speedtracker.org/
-            image: speedtracker.png
+            image: img/pages/home/customers/speedtracker.png
           - name: FAČR
             link: https://www.fotbal.cz/
-            image: facr.png
+            image: img/pages/home/customers/facr.png
   contact:
     title: Kontakt
     text: Řekněte nám, s čím potřebujete pomoct nebo poradit. Spolu najdeme řešení.
