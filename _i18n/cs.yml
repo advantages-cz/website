@@ -182,7 +182,7 @@ page-home:
       - name: Ostatní
         content:
           - name: Speedtracker
-            link: https://speedtracker.org/
+            link: https://www.optexsys.com/speedtracker-welcome/
             image: img/pages/home/customers/speedtracker.png
           - name: FAČR
             link: https://www.fotbal.cz/
