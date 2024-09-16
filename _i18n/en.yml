@@ -175,14 +175,14 @@ page-home:
         content:
           - name: Germania Flug AG
             link:
-            image:
+            image: img/pages/home/customers/germania.png
           - name: Plantours Kreuzfahrten
             link: https://www.plantours-kreuzfahrten.de/
             image: img/pages/home/customers/plantours.svg
       - name: Ostatní
         content:
           - name: Speedtracker
-            link: https://speedtracker.org/
+            link: https://www.optexsys.com/speedtracker-welcome/
             image: img/pages/home/customers/speedtracker.png
           - name: FAČR
             link: https://www.fotbal.cz/
