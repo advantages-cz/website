@@ -1079,3 +1079,22 @@
 		}
 	}
 }
+
+.not-found-root {
+	padding: 5rem 2.5rem 0;
+
+	@media (max-width: bps.$L) {
+		padding: 10rem 1rem;
+	}
+	h1 {
+		margin-bottom: 1.5rem;
+		text-align: left;
+		font-weight: 700;
+	}
+
+	h4 {
+		font-weight: 500;
+		font-size: 2rem;
+		line-height: 132%;
+	}
+}

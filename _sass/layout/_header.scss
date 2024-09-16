@@ -3,6 +3,9 @@
   position: relative;
   overflow-x: hidden;
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
   > img {
     position: absolute;
@@ -15,6 +18,10 @@
       left: 35%;
     }
   }
+}
+
+#main-content {
+  flex: 1;
 }
 
 .l-header {
