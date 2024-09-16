@@ -175,7 +175,7 @@ page-home:
         content:
           - name: Germania Flug AG
             link: 
-            image: 
+            image: img/pages/home/customers/germania.png
           - name: Plantours Kreuzfahrten
             link: https://www.plantours-kreuzfahrten.de/
             image: img/pages/home/customers/plantours.svg
