@@ -6,18 +6,14 @@ main:
 page-whatwedo:
   title: CO DĚLÁME
 
-page-howwework:
-  title: JAK PRACUJEME
+page-help-client:
+  title: S ČÍM POMŮŽEME
 
 page-aboutus:
   title: O NÁS
 
 page-workwithus:
   title: PRACUJTE S NÁMI
-
-page-contact:
-  title: KONTAKT
-
 
 page-home:
   title: Home
