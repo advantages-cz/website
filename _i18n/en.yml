@@ -1,5 +1,5 @@
 main:
-  button-start: Chci začít
+  button-learn: Zjistit více
   header:
     follow: Sledovat
 
@@ -22,7 +22,6 @@ page-home:
   intro:
     title: Rozvíjíme Vaši digitální budoucnost
     subtitle: Vytváříme řešení pro týmy a podnikání
-    button-start: Chci začít
     button-learn: Zjistit více
   what-we-do:
     title1: Co děláme
@@ -36,13 +35,13 @@ page-home:
     title5: Sjednocení komunikace v týmu a komunitách
     text5: Nehledejte pořád dokumenty, návody, dohody mezi kolegy nebo zákazníky. Připravíme přímo pro Vás komunikační nástroj a naučíme Vás s ním efektivně pracovat. <a target="_blank" href="https://www.discourse.cz/"> Discourse.</a>
   lets-start:
-    text: Nejsme jenom programátoři. Pomáháme klientům růst, inovovat a transformovat.
+    text: Jsme víc než programátoři. Pomáháme klientům růst, inovovat a transformovat.
     button: Začněme spolu
   help-clients:
     title: S čím pomůžeme
     text: Umožňujeme klientům efektivní práci z odkudkoliv – z domova, z terénu, z lodi – pomocí jednoduchých informačních systémů a komunikačních nástrojů.
     card-title1: Splňte si sny
-    card-text1: Máme zkušenosti s řízením procesů v různých odvětvích. V rámci spolupráce v nás máte i poradenskou oporu, kdy Vám dokážeme předat osvědčené postupy.
+    card-text1: Rozvíjejte Vaše podnikání díky nejnovějším technologiím. Co šlo v malém, rozjeďte bez obav dál. Rozhodujte se na základě pravdivých a přesných dat ze spolehlivých interních systémů a aplikací.
     card-title2: Pryč s rutinou
     card-text2: Zvládnout víc práce s menší námahou. Automatizujte opakující se činnosti a ušetřený čas využijte efektivněji. Třeba na kreativní úkoly.
     card-title3: Víc hlav, víc zkušeností
@@ -54,62 +53,56 @@ page-home:
     button: Mám zájem o spolupráci
   about-us:
     title: Toto jsme my
-    text: Naším úkolem je pomoct Vám se zapeklitým problémem. Máme na to ty nejlepší vlastnosti.
+    text: V týmu se známe profesně i osobně, vzájemně se podporujeme a doplňujeme. To nám umožňuje efektivně Vám pomoct se zapeklitým problémem.
     card1: Efektivní
-    card1-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
-    card2: ---
-    card2-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
+    card1-back-side: Každý je profíkem v jiné oblasti, ale spolu jsme sehraní. Učíme se od sebe.
+    card2: Zvědaví
+    card2-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme.
     card3: Nezávislí
-    card3-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
+    card3-back-side: Na úkolech pracujeme samostatně, nepotřebujeme pošťuchovat. Důležitá rozhodnutí s Vámi konzultujeme.
     card4: Transparentní
-    card4-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
+    card4-back-side: Mluvíme jasně a na rovinu. Děláme jen to, co dává smysl.
     card5: Inovativní
-    card5-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
-    card6: Jednotní
-    card6-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
-    card7: Proaktivní
-    card7-back-side: Nezůstáváme pozadu, sledujeme trendy v našem oboru a dál se vzděláváme
+    card5-back-side: Nad úkoly přemýšlíme komplexně, posuzujeme různé aspekty a navrhujeme často neobvyklá řešení.
+    card6: Proaktivní
+    card6-back-side: Domýšlíme nedomyšlená zadání, abychom vytvořili smysluplný produkt.
     members:
-      - name: Zuzka Čapková
-        photo: img/pages/home/members/photo-capkova.png
-        description: >
-          <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše #1 pro modelování.
-      - name: Petr Hrehorovský
-        photo: img/pages/home/members/photo-hrehorovsky.png
-        description: <b>Senior vývojář,</b> maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost Petr je v týmu už 15 let a pořád ho to s námi baví.
-      - name: Jirka Prajz
-        photo: img/pages/home/members/photo-prajz.png
-        description: <b>Backend vývojář,</b> který také modeluje, navrhuje a spravuje systémy. Má zkušenosti s projekty pro neziskovku, sportovou organizaci nebo v tiskařském oboru.<br><br> Jaká je? DevOps je pro něj základ, pracuje systematicky a rychle.
-      - name: Jindra Sušeň
-        photo: img/pages/home/members/photo-susen.png
-        description:  >
-          <b>Full stack senior vývojář,</b> náš programátor 1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
-      - name: Vašek Urbánek
-        photo: img/pages/home/members/photo-susen.png
-        description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
       - name: Tomáš Vavrda
-        photo: img/pages/home/members/photo-vavrda.jpeg
-        description: <b>Zakladatel AS a tvůrce ORIGAM,</b> manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání.<br><br> Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
+        photo: img/pages/home/members/photo-Tomas-Vavrda.jpg
+        description: <b>Zakladatel Advantage Solutions a tvůrce ORIGAM,</b> manažer, softwarový a databázový architekt, Discourse administrátor, podnikatelský mentor, inovátor ve vzdělávání.<br><br> Jaký je? Hledá a najde vždy dobrá řešení pro klienty i kolegy. Jedná na rovinu, s jasným cílem pomoct. Zkušenosti v podnikání předává také studentům SŠ.
+      - name: Petr Hrehorovský
+        photo: img/pages/home/members/photo-Petr-Hrehorovsky.jpg
+        description: "<b>Provozní ředitel,</b> senior vývojář, maintainer kódu a navíc má pod palcem HR. Pracoval na projektech v oblasti realit, státní správy, aerolinek i bankovnictví.<br><br> Jaký je? Věčný kritik a pedant, dohlíží na čistotu kódu a českého jazyka. Zajímavost: Petr je v týmu už 15 let a pořád ho to s námi baví."
+      - name: Vašek Urbánek
+        photo: img/pages/home/members/photo-Vaclav-Urbanek.jpg
+        description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
+      - name: Jindra Sušeň
+        photo: img/pages/home/members/photo-Jindrich-Susen.jpg
+        description: <b>Senior full stack vývojář,</b> náš programátor &#35;1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
+      - name: Pavel Tomáško
+        photo: img/pages/home/members/photo-Pavel-Tomasko.jpg
+        description: <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.
+      - name: Zuzka Čapková
+        photo: img/pages/home/members/photo-Zuzana-Capkova.jpg
+        description: <b>Backend senior vývojářka,</b> která toho dělá daleko víc - business proces modely, databázovou architekturu, zákaznickou podporu, analýzy. Má zkušenosti v oboru e-commerce.<br><br>Jaká je? Pečlivá, důsledná, zodpovědná, naše &#35;1 pro modelování.
       - name: Majka Gerliczyová
-        photo: img/pages/home/members/photo-gerliczyova.png
+        photo: img/pages/home/members/photo-Maria-Gerliczyova.jpg
         description: <b>Copywriterka,</b> marketérka a koordinátorka projektů.<br><br>Jaká je? Pokládá spoustu otázek, které pomáhají utřídit a vyjasnit si, co chcete a potřebujete pro své projekty. A pak Vám s tím pomůže.
       - name: Nela Hakr
-        photo: img/pages/home/members/photo-hakr.png
-        description:  <b>Konzultantka</b><br><br>Jaká je?
-      - name: Zdeněk Rajtr
-        photo: img/pages/home/members/photo-rajtr.png
-        description: >
-          <b>Správce dokumentace a koordinátor vzdělávání.</b>  Má zkušenosti ze zdravotnictví, hotelů, maloobchodu i vzdělávání.<br><br>Jaký je? Milovník zvířat, zodpovědný, nápomocný, klient je pro něj #1.
-      - name: Pavel Tomáško
-        photo: img/pages/home/members/photo-tomasko.png
-        description: >
-          <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.<br><br>Používá: React
+        photo: img/pages/home/members/photo-Nela-Hakr.jpg
+        description: <b>Konzultantka, backend vývojářka a správkyně dokumentace.</b> Má zkušenosti s organizací vzdělávacích akcí v univerzitním prostredí, podporou implementace podnikové aplikace i s projektovým řízením.<br><br>Jaká je? Záleží jí na životním prostředí, miluje matematiku a cestování.
+      - name: Táňa Beránková Císařová
+        photo: img/pages/home/members/photo-Tatana-Berankova-Cisarova.jpg
+        description: <b>Konzultantka projektového inkubátoru.</b> Je zkušená pedagožka ekonomiky, podporuje inovace ve vzdělávání a spolupráci mezi studenty a podnikateli.<br><br> Jaká je? Nadšená do práce a nových úkolů, plná energie.
+      - name: David Pilpach
+        photo: img/pages/home/members/photo-David-Pilpach.jpg
+        description: <b>Full stack vývojář.</b>  Podílel se na vývoji administrativních systémů, zajímá se o logistiku.<br><br>Jaký je? Pracuje spolehlivě a rychle a ve volném čase profesionálne skáče.
   join-us:
     title: Chcete se k nám přidat?
     text: Hodíte se k nám? Představte se nám a pojďme spolu pracovat na projektech, které mají smysl.
-    button: Chci Vás
+    button: Chci s Vámi pracovat
   about-us-text:
-    text1: Společnost Advantage Solutions, s.r.o. vznikla v roce 2003 v ČR s cílem vyvíjet všeobecná IT řešení pro malé a střední firmy. Klienti často poptávali specifická řešení a tak jsme vyvinuli vlastní software ORIGAM. Má výhody zakázkového softwaru, navíc je flexibilní, spolehlivý, s rychlou technickou podporu a od roku 2017 jako open source.
+    text1: Společnost Advantage Solutions, s.r.o. vznikla v roce 2003 v ČR s cílem vyvíjet všeobecná IT řešení pro malé a střední firmy. Specifická poptávka nás přivedla k vývoji vlastního softwaru <a target="_blank" href="https://www.origam.com/"> ORIGAM</a>. Má výhody zakázkového softwaru, navíc je flexibilní, spolehlivý, s rychlou technickou podporu a od roku 2017 jako open source.
     text2: Systémy od nás pomáhají klientům s automatizací, podporou procesů, v rozhodování na základě přesných dat a přehledných uživatelských rozhraní.
     text3: Naším posláním je efektivně pomáhat firmám a organizacím k digitalizaci.
   how-we-work:
@@ -123,11 +116,11 @@ page-home:
     step3-title: 3. Navrhujeme řešení
     step3-text: Připravíme postup spolupráce nebo prototyp nového systému, abyste si zkusili, jak bude fungovat a vypadat.
     step4-title: 4. Pracujeme agilně
-    step4-text: Po upřesnění podrobností začínáme vyvíjet, implementovat nebo konzultovat. Jste v kontaktu s vývojáři a máte aktuální přehled o dění na projektu. Kryjeme Vám záda
+    step4-text: Po upřesnění podrobností začínáme vyvíjet, implementovat nebo konzultovat. Jste v kontaktu s vývojáři a máte aktuální přehled o dění na projektu.
     step5-title: 5. Kryjeme Vám záda
     step5-text: Implementací to nemusí končit. Rádi udržujeme dlouhodobé vztahy s klienty.
     tech-title: V čem jsme dobří
-    tech-text: Technologie, nástroje a programovací jazyky, které máme v malíčku
+    tech-text: Technologie a programovací jazyky
     tech-sub-title1: Technologie
     tech-sub-title2: Integrace
   our-work:
@@ -142,70 +135,58 @@ page-home:
     category7: Tourism
     category8: Other
     industries:
-      - name: Sales & eCommerce
+      - name: Obchod & e-commerce
+        content:
+          - name: Icontel AG
+            link: https://www.icontel.com/en-us/Default.aspx
+            image: img/pages/home/customers/icontel.png
+          - name: WyBy
+            link: https://www.wyby.ch/en-us/Default.aspx
+            image: img/pages/home/customers/wyby.svg
+      - name: Potravinářský průmysl
         content:
           - name: Le&Co
             link: https://www.le-co.cz
             image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Food industry
+      - name: Pojišťovny
+        content:
+          - name: AGV
+            link: https://agv-ag.ch/
+            image: img/pages/home/customers/agv.svg
+      - name: Reality
+        content:
+          - name: PIE Properties
+            link: https://www.pie.properties/
+            image: img/pages/home/customers/pie.png
+      - name: Služby
+        content:
+          - name: Taldis AG
+            link: https://www.taldis.ch/
+            image: img/pages/home/customers/taldis.png
+          - name: Navijárna HMF
+            link: http://www.navijarna-hmf.cz/
+            image: img/pages/home/customers/navijarna.png
+      - name: Telco
         content:
           - name: Elpida
             link: https://www.elpida.cz
-            image: img/pages/home/customers/elpida.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Insurance companies
+            image: img/pages/home/customers/elpida.svg
+      - name: Cestovní ruch
         content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Real estate
+          - name: Germania Flug AG
+            link:
+            image:
+          - name: Plantours Kreuzfahrten
+            link: https://www.plantours-kreuzfahrten.de/
+            image: img/pages/home/customers/plantours.svg
+      - name: Ostatní
         content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Services
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Telco
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Tourism
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
-      - name: Other
-        content:
-          - name: Le&Co
-            link: https://www.le-co.cz
-            image: img/pages/home/customers/leco.png
-          - name: WyBy
-            link: https://www.wyby.ch/en-us/Default.aspx
-            image: img/pages/home/customers/wyby.png
+          - name: Speedtracker
+            link: https://speedtracker.org/
+            image: img/pages/home/customers/speedtracker.png
+          - name: FAČR
+            link: https://www.fotbal.cz/
+            image: img/pages/home/customers/facr.png
   contact:
     title: Kontakt
     text: Řekněte nám, s čím potřebujete pomoct nebo poradit. Spolu najdeme řešení.
