@@ -16,10 +16,32 @@ permalink: /404.html
 </section>
 
 <script>
-    if(window.location.pathname.substring(0,5) === "/doc/")
-    {
-        var destination = "http://confluence.origam.com";
-        window.location.href = destination + window.location.pathname.substring(4) + (window.location.search || '') + (window.location.hash || '');
+  function makeSureFooterIsAtTheBottom() {
+    const mainContainerDivs = document.getElementsByClassName("main-container")
+    for (const mainContainerDiv of mainContainerDivs) {
+        mainContainerDiv.style.height = "100%";
     }
+  }
+
+  function hideNavBarButtons() {
+    const headerButtonsDivs = [
+      ...document.getElementsByClassName("l-header-main-menu"),
+      ...document.getElementsByClassName("l-header-buttons")
+    ]
+    for (const headerButtonsDiv of headerButtonsDivs) {
+        headerButtonsDiv.style.display = "none";
+    }
+  }
+
+  function setLogoButtonLink(){
+    const logoButtons = document.getElementsByClassName("l-header-logo");
+    for (const logoButton of logoButtons) {
+      logoButton.href = "/";
+    }
+  }
+
+  makeSureFooterIsAtTheBottom();
+  hideNavBarButtons();
+  setLogoButtonLink();
 </script>
   
