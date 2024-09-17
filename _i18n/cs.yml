@@ -214,3 +214,7 @@ work-with-us:
 what-we-do:
   title: what-we-do
   description: what-we-do
+
+not-found:
+  title: Stránku jsme nenašli.
+  details: Zkuste to znovu přes <a href="/">homepage</a>.
