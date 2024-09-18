@@ -1,6 +1,5 @@
 _site/
 .jekyll-cache
-Gemfile.lock
 /.idea/.gitignore
 /.idea/advantageWeb.iml
 /.idea/modules.xml
