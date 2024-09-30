@@ -66,6 +66,8 @@ page-home:
     card5-back-side: Nad úkoly přemýšlíme komplexně, posuzujeme různé aspekty a navrhujeme často neobvyklá řešení.
     card6: Proaktivní
     card6-back-side: Domýšlíme nedomyšlená zadání, abychom vytvořili smysluplný produkt.
+    card7: Nápomocní
+    card7-back-side: Lídrem všeho je Tomáš, ale podporuje ho tým zkušených externistů. Právě oni pomohli dotáhnout projekty a podnikání tam, kde je dnes.
     members:
       - name: Tomáš Vavrda
         photo: img/pages/home/members/photo-Tomas-Vavrda.jpg
