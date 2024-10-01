@@ -15,6 +15,9 @@ page-aboutus:
 page-workwithus:
   title: PRACUJTE S NÁMI
 
+page-contact:
+  title: Kontakt
+
 page-home:
   title: Home
   description: ORIGAM je open source software pro vývoj interních systémů i aplikací na míru.
@@ -80,7 +83,7 @@ page-home:
         description: <b>Senior backend architekt a databázový architekt.</b> Pracoval na projektech pro aerolinky, bankovní sektor nebo ecommerce.<br><br> Jaký je? Jeho doménou je řešení náročných úkolů. Za vším vidí rizika, proto pracuje s každou variantou, aby je odstranil.
       - name: Jindra Sušeň
         photo: img/pages/home/members/photo-Jindrich-Susen.jpg
-        description: <b>Senior full stack vývojář,</b> náš programátor &#35;1. Zkušenosti má z projektů na sportovní mobilní aplikaci, strojírenství, auto-moto i pro cestovní agenturu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
+        description: <b>Senior full stack vývojář,</b> náš programátor &#35;1. Zkušenosti má z projektů na sportovní mobilní aplikaci, webových aplikacích ve strojírenství, automotive a v cestovním ruchu.<br><br> Jaký je? Nezahálí a pořád se vzdělává a zlepšuje.
       - name: Pavel Tomáško
         photo: img/pages/home/members/photo-Pavel-Tomasko.jpg
         description: <b>Senior full stack vývojář.</b> Podílel se na výzkumu v energetice, stavebnictví a na řídících algoritmech, zkušenosti má i s embedded softwarem v oblasti automotive.<br><br>Jaký je? Pracuje důsledně do detailu, je hloubavý a věčně kritický na svou práci.
@@ -195,27 +198,6 @@ page-home:
   copyright:
     address: Advantage Solutions, s. r. o., Jihovýchodní II. 887, 141 00 Praha 4, Czech Republic.
     date: Copyright © 2003–2024
-
-page-contact:
-  title: Kontakt
-  description: Zaujal Vás ORIGAM? Chcete si vyzkoušet prototyp nebo se stát partnerem?
-    Napište nám, co potřebujete. Vše rádi zodpovíme.
-
-about-us:
-  title: about us
-  description: about us
-
-how-we-work:
-  title: how-we-work
-  description: how-we-work
-
-work-with-us:
-  title: work-with-us
-  description: work-with-us
-
-what-we-do:
-  title: what-we-do
-  description: what-we-do
 
 not-found:
   title: The page was not found.

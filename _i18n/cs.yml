@@ -15,6 +15,9 @@ page-aboutus:
 page-workwithus:
   title: PRACUJTE S NÁMI
 
+page-contact:
+  title: Kontakt
+
 page-home:
   title: Home
   description: ORIGAM je open source software pro vývoj interních systémů i aplikací na míru.
@@ -195,27 +198,6 @@ page-home:
   copyright:
     address: Advantage Solutions, s. r. o., Jihovýchodní II. 887, 141 00 Praha 4, Czech Republic.
     date: Copyright © 2003–2024
-
-page-contact:
-  title: Kontakt
-  description: Zaujal Vás ORIGAM? Chcete si vyzkoušet prototyp nebo se stát partnerem?
-    Napište nám, co potřebujete. Vše rádi zodpovíme.
-
-about-us:
-  title: about us
-  description: about us
-
-how-we-work:
-  title: how-we-work
-  description: how-we-work
-
-work-with-us:
-  title: work-with-us
-  description: work-with-us
-
-what-we-do:
-  title: what-we-do
-  description: what-we-do
 
 not-found:
   title: Stránku jsme nenašli.
