@@ -56,7 +56,7 @@ page-home:
     button: Mám zájem o spolupráci
   about-us:
     title: Toto jsme my
-    text: V týmu se známe profesně i osobně, vzájemně se podporujeme a doplňujeme. To nám umožňuje efektivně Vám pomoct se zapeklitým problémem.
+    text: V týmu se známe profesně i osobně, vzájemně se podporujeme a doplňujeme. To nám umožňuje efektivně Vám pomoct se zapeklitým problémem. Naší filozofií je svoboda, a proto neomezujeme členy týmu v jiných činnostech. O to více si vážíme toho, že mnoho z nás spolupracuje dlouhodobě.
     card1: Efektivní
     card1-back-side: Každý je profíkem v jiné oblasti, ale spolu jsme sehraní. Učíme se od sebe.
     card2: Zvědaví
@@ -70,7 +70,9 @@ page-home:
     card6: Proaktivní
     card6-back-side: Domýšlíme nedomyšlená zadání, abychom vytvořili smysluplný produkt.
     card7: Nápomocní
-    card7-back-side: Lídrem všeho je Tomáš, ale podporuje ho tým zkušených externistů. Právě oni pomohli dotáhnout projekty a podnikání tam, kde je dnes.
+    card8-back-side: Lídrem všeho je Tomáš, ale podporuje ho tým zkušených externistů. Právě oni pomohli dotáhnout projekty a podnikání tam, kde je dnes.
+    card8: Svobodní
+    card8-back-side: Praktikujeme zásady svobodné spolupráce. Nikdo z našeho týmu není vázán omezujícími smluvními podmínkami. Spolupracujeme spolu, protože chceme.
     members:
       - name: Tomáš Vavrda
         photo: img/pages/home/members/photo-Tomas-Vavrda.jpg
