@@ -5,3 +5,5 @@ Gemfile.lock
 /.idea/advantageWeb.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+.DS_Store
+.DS_Store

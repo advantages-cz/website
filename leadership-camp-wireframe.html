@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leadership Camp | Firemní landing page wireframe</title>
+  <meta name="description" content="Wireframe firemní landing page pro Leadership Camp." />
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --paper: #fffaf1;
+      --ink: #1f2a2e;
+      --muted: #687276;
+      --line: #ded4c3;
+      --accent: #d36b3d;
+      --accent-dark: #a94f2b;
+      --soft: #ece4d6;
+      --soft-2: #e5ede8;
+      --radius: 22px;
+      --shadow: 0 18px 50px rgba(31, 42, 46, .10);
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+
+    .page {
+      overflow: hidden;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .wire-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+      background: rgba(255,250,241,.7);
+    }
+
+    .wire-label::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 52px;
+      padding: 0 24px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      box-shadow: 0 14px 28px rgba(211,107,61,.25);
+    }
+
+    .button:hover { background: var(--accent-dark); }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(14px);
+      background: rgba(246, 242, 234, .82);
+      border-bottom: 1px solid rgba(222, 212, 195, .8);
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 74px;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+    }
+
+    .brand small {
+      color: var(--muted);
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .nav-links a {
+      text-decoration: none;
+    }
+
+    .nav-links a:hover { color: var(--ink); }
+
+    .hero {
+      padding: 86px 0 70px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 54px;
+      align-items: center;
+    }
+
+    h1, h2, h3 {
+      margin: 0;
+      letter-spacing: -.04em;
+      line-height: 1.05;
+    }
+
+    h1 {
+      margin-top: 18px;
+      font-size: clamp(48px, 7vw, 86px);
+      max-width: 900px;
+    }
+
+    h2 {
+      font-size: clamp(34px, 4vw, 54px);
+      margin-bottom: 22px;
+    }
+
+    h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      letter-spacing: -.025em;
+    }
+
+    .lead {
+      margin: 24px 0 0;
+      max-width: 730px;
+      font-size: clamp(19px, 2vw, 24px);
+      color: #3f4a4e;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin-top: 34px;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 14px;
+      max-width: 300px;
+    }
+
+    .visual-card {
+      position: relative;
+      min-height: 470px;
+      border: 1px solid var(--line);
+      border-radius: 34px;
+      background: linear-gradient(145deg, #fffaf1, #e9efe9);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .photo-placeholder {
+      display: grid;
+      place-items: center;
+      height: 260px;
+      border: 2px dashed #c8bca8;
+      border-radius: 24px;
+      color: var(--muted);
+      text-align: center;
+      padding: 24px;
+      background: rgba(255,255,255,.45);
+    }
+
+    .mini-output {
+      position: absolute;
+      left: -18px;
+      right: 28px;
+      bottom: 28px;
+      padding: 22px;
+      border-radius: 24px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .mini-output strong {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .mini-output ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    section {
+      padding: 74px 0;
+    }
+
+    .section-head {
+      max-width: 790px;
+      margin-bottom: 34px;
+    }
+
+    .section-head p,
+    .text-block p {
+      color: #465155;
+      font-size: 18px;
+      margin: 0 0 16px;
+    }
+
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      counter-reset: step;
+    }
+
+    .step {
+      position: relative;
+      min-height: 170px;
+      padding: 22px;
+      border-radius: 20px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      margin-bottom: 18px;
+      border-radius: 50%;
+      background: var(--soft-2);
+      font-weight: 800;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: var(--paper);
+    }
+
+    .card p,
+    .step p,
+    .profile p,
+    .proof p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .audience-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .checklist li {
+      position: relative;
+      padding-left: 32px;
+      color: #465155;
+    }
+
+    .checklist li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 22px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--soft-2);
+      color: #2e6253;
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .proof {
+      min-height: 190px;
+      border-radius: 20px;
+      padding: 22px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+    }
+
+    .placeholder-box {
+      display: grid;
+      place-items: center;
+      min-height: 110px;
+      margin-bottom: 14px;
+      border: 2px dashed #c8bca8;
+      border-radius: 16px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .profiles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .profile {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 20px;
+      padding: 24px;
+      border-radius: 22px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 28px;
+      border: 2px dashed #c8bca8;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+    }
+
+    .fact {
+      padding: 20px;
+      border-radius: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+    }
+
+    .fact strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .fact span {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .final-cta {
+      padding: 86px 0 96px;
+    }
+
+    .cta-panel {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 28px;
+      align-items: center;
+      padding: 48px;
+      border-radius: 34px;
+      background: var(--ink);
+      color: white;
+    }
+
+    .cta-panel p {
+      color: rgba(255,255,255,.75);
+      font-size: 20px;
+      margin: 20px 0 0;
+    }
+
+    .cta-panel .button {
+      justify-self: end;
+      background: white;
+      color: var(--ink);
+      box-shadow: none;
+    }
+
+    footer {
+      padding: 30px 0 50px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .wire-note {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: rgba(255,250,241,.7);
+      color: var(--muted);
+      border-radius: 0 14px 14px 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .split,
+      .audience-grid,
+      .profiles,
+      .cta-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .steps,
+      .cards,
+      .proof-grid,
+      .facts {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .cta-panel .button { justify-self: start; }
+      .nav-links { display: none; }
+    }
+
+    @media (max-width: 640px) {
+      .container { width: min(var(--max), calc(100% - 24px)); }
+      .hero { padding-top: 48px; }
+      section { padding: 52px 0; }
+      .steps,
+      .cards,
+      .proof-grid,
+      .facts {
+        grid-template-columns: 1fr;
+      }
+      .profile { grid-template-columns: 1fr; }
+      .visual-card { min-height: 530px; }
+      .mini-output { left: 16px; right: 16px; }
+      .panel, .cta-panel { padding: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          Leadership Camp
+          <small>Firemní týmový camp</small>
+        </div>
+        <nav class="nav-links" aria-label="Hlavní navigace">
+          <a href="#proc-ted">Proč teď</a>
+          <a href="#tri-dny">3 dny</a>
+          <a href="#benefity">Benefity</a>
+          <a href="#prakticky">Prakticky</a>
+          <a class="button" href="https://forms.gle/leadership-camp-placeholder">Chci vědět víc</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="wire-label">Hero / hlavní sdělení</span>
+            <h1>Když tým potřebuje znovu najít tah</h1>
+            <p class="lead">Třídenní zážitkový camp pro firmy a týmy, které potřebují probudit podnikavost, pracovat s nejistotou a rychle ověřovat hodnotu v praxi.</p>
+            <p class="lead">Účastníci si pojmenují vlastní schopnosti, najdou problém, který stojí za řešení, vytvoří jednoduchou zkušební verzi řešení a ověří ji u zákazníků. Nejen zájem, ale i ochotu zaplatit.</p>
+            <div class="hero-actions">
+              <a class="button" href="https://forms.gle/leadership-camp-placeholder">Chci vědět víc</a>
+              <span class="note">CTA zatím vede na placeholder Google Forms. Finální odkaz doplnit před publikací.</span>
+            </div>
+          </div>
+
+          <aside class="visual-card" aria-label="Místo pro hero vizuál">
+            <div class="photo-placeholder">Vizuál týmu v práci<br />fotka z Žitné / workshopu / prototypování</div>
+            <div class="mini-output">
+              <strong>Ukázka výstupu z campu</strong>
+              <ul>
+                <li>pojmenovaný problém</li>
+                <li>pracovní domněnka</li>
+                <li>první verze řešení</li>
+                <li>způsob ověření v realitě</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="proc-ted">
+        <div class="container split">
+          <div class="section-head">
+            <span class="wire-label">Sekce 2 / problém</span>
+            <h2>Proč teď</h2>
+          </div>
+          <div class="panel text-block">
+            <p>Mnoho firem dnes neřeší jen to, jak víc pracovat.</p>
+            <p><strong>Řeší, co má ještě hodnotu, kdo ji umí vytvářet a jak se k ní rychle dostat s omezenými zdroji.</strong></p>
+            <p>Firma vyrostla. Zesložitěla. Lidé jsou dobří, ale unavení. Některé postupy, které roky fungovaly, začínají drhnout. AI přepisuje role a zpochybňuje práci, která dřív vypadala bezpečně.</p>
+            <p>To neznamená, že se celá firma musí změnit ve startup. Camp pomáhá v běžných situacích: když tým potřebuje zlepšit službu, ověřit nový nápad, rozhýbat zaseknutý projekt, najít lepší způsob spolupráce nebo znovu pochopit, kde je zákazník.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tri-dny">
+        <div class="container">
+          <div class="section-head">
+            <span class="wire-label">Sekce 3 / cesta účastníka</span>
+            <h2>Co se za tři dny stane</h2>
+            <p>Účastníci projdou cestu od vlastní výbavy k ověřenému dalšímu kroku.</p>
+          </div>
+          <div class="steps">
+            <div class="step"><p>Pojmenují své kompetence a silné stránky.</p></div>
+            <div class="step"><p>Najdou oblast, ve které mají energii něco ovlivnit.</p></div>
+            <div class="step"><p>Formulují problém nebo příležitost.</p></div>
+            <div class="step"><p>Ověřují domněnky u zákazníků, kolegů nebo uživatelů.</p></div>
+            <div class="step"><p>Navrhnou jednoduchý prototyp nebo zkušební verzi řešení.</p></div>
+            <div class="step"><p>Testují hodnotu v praxi.</p></div>
+            <div class="step"><p>Prezentují výsledek a dostávají syrovou zpětnou vazbu.</p></div>
+            <div class="step"><p>Reflektují, co si odnášejí do práce.</p></div>
+          </div>
+          <div class="wire-note">Součástí nabídky je i následná reflexe s odstupem.</div>
+        </div>
+      </section>
+
+      <section id="benefity">
+        <div class="container">
+          <div class="section-head">
+            <span class="wire-label">Sekce 4 / benefity</span>
+            <h2>Pět benefitů pro firmu</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3>1. Lidé znovu uvidí, co v nich je</h3>
+              <p>Účastníci si pojmenují schopnosti, zkušenosti a silné stránky, které mohou mít v nové realitě větší hodnotu, než si sami mysleli.</p>
+            </article>
+            <article class="card">
+              <h3>2. Tým propojí motivaci s hodnotou</h3>
+              <p>Camp pomáhá lidem hledat průnik mezi osobní energií, zákaznickou potřebou a firemní realitou.</p>
+            </article>
+            <article class="card">
+              <h3>3. Nápady se ověřují v realitě</h3>
+              <p>Účastníci jdou do terénu, mluví s lidmi a zjišťují, co obstojí mimo bezpečí zasedačky.</p>
+            </article>
+            <article class="card">
+              <h3>4. První verze vzniká z téměř ničeho</h3>
+              <p>Nejde o ideální podmínky. Pracuje se s omezeným časem, jednoduchým prototypem a minimem prostředků.</p>
+            </article>
+            <article class="card">
+              <h3>5. Firma získá společnou zkušenost</h3>
+              <p>Tým má konkrétní zážitek, ke kterému se může vracet při dalších projektech, službách nebo zlepšeních.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pro-koho">
+        <div class="container audience-grid">
+          <div class="section-head">
+            <span class="wire-label">Sekce 5 / cílovka</span>
+            <h2>Pro koho je týmový camp</h2>
+            <p>Pro firmy, které potřebují rozhýbat konkrétní tým, službu, projekt nebo způsob práce.</p>
+          </div>
+          <div class="panel">
+            <ul class="checklist">
+              <li>procházejí změnou, reorganizací nebo novou etapou,</li>
+              <li>chtějí znovu nastartovat podnikavost lidí,</li>
+              <li>hledají nové služby, zlepšení nebo příležitosti,</li>
+              <li>řeší dopad AI na role, služby nebo způsob práce,</li>
+              <li>potřebují víc ověřovat hodnotu před investicí kapacity,</li>
+              <li>chtějí zapojit nejen manažery, ale celý tým, který skutečně vytváří hodnotu.</li>
+            </ul>
+            <div class="wire-note">V základní variantě camp nepracuje s citlivými interními projekty. Pokud firma chce pracovat přímo se svými tématy, lze připravit týmovou variantu s interním zadáním.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dukazy">
+        <div class="container">
+          <div class="section-head">
+            <span class="wire-label">Sekce 6 / důkazové prvky</span>
+            <h2>Důkazové prvky</h2>
+            <p>První verze stránky má používat skutečné vizuály a konkrétní ukázky. Falešné testimonialy nepoužívat.</p>
+          </div>
+          <div class="proof-grid">
+            <article class="proof">
+              <div class="placeholder-box">Fotografie týmů v práci</div>
+              <h3>Práce v týmu</h3>
+              <p>Fotky z Žitné nebo podobného workshopového prostředí.</p>
+            </article>
+            <article class="proof">
+              <div class="placeholder-box">Ukázka výstupu</div>
+              <h3>Konkrétní výsledek</h3>
+              <p>Problém, domněnka, první verze řešení a způsob ověření.</p>
+            </article>
+            <article class="proof">
+              <div class="placeholder-box">Podcast odkaz</div>
+              <h3>Z lavice do akce</h3>
+              <p><a href="https://open.spotify.com/episode/6yS5PMWrLqlnvzcI1laU1e">Podpůrný důkaz přístupu k podnikavosti a vzdělávání.</a></p>
+            </article>
+            <article class="proof">
+              <div class="placeholder-box">Později citace</div>
+              <h3>Citace účastníka</h3>
+              <p>Doplnit až ve chvíli, kdy bude skutečná citace k dispozici.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="kdo-vede">
+        <div class="container">
+          <div class="section-head">
+            <span class="wire-label">Sekce 7 / lektoři</span>
+            <h2>Kdo camp vede</h2>
+            <p>Camp vedou Tomáš Vavrda a Taťána Beránková Císařová.</p>
+          </div>
+          <div class="profiles">
+            <article class="profile">
+              <div class="avatar">Portrét<br />Tomáš</div>
+              <div>
+                <h3>Tomáš Vavrda</h3>
+                <p>Podnikatel, zakladatel Adaptivio a technologického frameworku ORIGAM. Prošel více než 150 projekty a dlouhodobě se zabývá tím, jak lidé a organizace zvládají změnu, složitost a nové způsoby práce.</p>
+              </div>
+            </article>
+            <article class="profile">
+              <div class="avatar">Portrét<br />Taťána</div>
+              <div>
+                <h3>Taťána Beránková Císařová</h3>
+                <p>Pedagožka, inovátorka ve vzdělávání a učitelka ekonomiky. Společně s Tomášem šest let vede týmy studentů generace Z k podnikavosti a pomáhá učitelům středních škol vstupovat do nové role.</p>
+              </div>
+            </article>
+          </div>
+          <div class="wire-note">Společná zkušenost stojí na kombinaci podnikání, technologie, vzdělávání a práce s lidmi, kteří mají něco zkusit dřív, než si začnou věřit.</div>
+        </div>
+      </section>
+
+      <section id="prakticky">
+        <div class="container">
+          <div class="section-head">
+            <span class="wire-label">Sekce 8 / praktické informace</span>
+            <h2>Prakticky</h2>
+          </div>
+          <div class="facts">
+            <div class="fact"><strong>Formát</strong><span>Zakázkový třídenní camp pro jednu firmu nebo tým.</span></div>
+            <div class="fact"><strong>Skupina</strong><span>Typicky 10–20 lidí.</span></div>
+            <div class="fact"><strong>Pro koho</strong><span>Vedení, tým, specialisté, obchod, produkt, delivery, support nebo smíšená skupina.</span></div>
+            <div class="fact"><strong>Součástí</strong><span>Sladění kontextu, camp, závěrečná prezentace a následná reflexe.</span></div>
+            <div class="fact"><strong>Cena</strong><span>Individuálně podle velikosti týmu, místa, kontextu a návazné práce.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" id="kontakt">
+        <div class="container">
+          <div class="cta-panel">
+            <div>
+              <span class="wire-label">Sekce 9 / závěrečné CTA</span>
+              <h2>Firma se nezačne znovu hýbat jen proto, že dostane novou strategii.</h2>
+              <p>Začne se hýbat ve chvíli, kdy lidé znovu uvidí, co umí, proč na tom záleží, komu tím pomáhají a jak si první krok ověřit v realitě.</p>
+              <p><strong>Leadership Camp pomáhá firmám znovu propojit motivaci lidí, potřeby zákazníků a konkrétní hodnotu.</strong></p>
+            </div>
+            <a class="button" href="https://forms.gle/leadership-camp-placeholder">Chci vědět víc</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        Wireframe pro interní návrh. Před publikací doplnit finální brand, vizuály, formulář, citace a technické nasazení.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
